@@ -1,0 +1,289 @@
+/* ------------------------------------------------
+   team.css - Team Page Specific Styles
+------------------------------------------------ */
+
+/* 1. Shared Layout Utilities (Matching About Page) */
+.page-section {
+    padding: 100px 24px;
+    background-color: #ffffff;
+  }
+  
+  .alt-bg {
+    background-color: #f7f7f7;
+  }
+  
+  .section-inner {
+    max-width: 1000px; /* Slightly wider for the 2x2 grid */
+    margin: 0 auto;
+  }
+  
+  .center-text {
+    text-align: center;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .accent-label {
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #0055ff;
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: #111;
+  }
+  
+  .lead-text {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 24px;
+  }
+  
+  .body-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.7;
+  }
+  
+  /* ------------------------------------------------
+     2. Employee Profile Grid (2x2)
+  ------------------------------------------------ */
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+  
+  .team-card {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    overflow: hidden; /* Keeps image inside corners */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 240px;
+    background-color: #e0e0e0; /* Fallback grey if image fails */
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+  }
+  
+  .card-content {
+    padding: 24px;
+    text-align: left;
+  }
+  
+  .team-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+    color: #111;
+  }
+  
+  .role {
+    display: block;
+    font-size: 0.9rem;
+    color: #0055ff;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+  
+  .background {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+  
+  .duties {
+    padding-left: 16px;
+    margin: 0;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  
+  .duties li {
+    margin-bottom: 6px;
+  }
+  
+  /* ------------------------------------------------
+     3. Org Structure Diagram (Hub & Spoke)
+  ------------------------------------------------ */
+  
+  .org-diagram {
+    position: relative;
+    max-width: 900px;
+    margin: 60px auto 0;
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr; /* Center column for Hub */
+    grid-template-rows: auto auto auto;
+    gap: 24px;
+    align-items: center;
+  }
+  
+  /* The Center Hub */
+  .hub-container {
+    grid-column: 2; /* Place in center column */
+    grid-row: 1 / 4; /* Span all rows */
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hub-circle {
+    width: 280px;
+    height: 280px;
+    background-color: #111111;
+    color: #ffffff;
+    border-radius: 50%; /* Circle shape */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    position: relative;
+  }
+  
+  .hub-circle h3 {
+    color: #ffffff;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+  .hub-circle ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #cccccc;
+  }
+  
+  .hub-circle li {
+    margin-bottom: 6px;
+  }
+  
+  /* The Spokes Container */
+  .spokes-container {
+    display: contents; /* Allows children to use the main grid */
+  }
+  
+  .spoke-card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 16px 20px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    transition: background-color 0.2s;
+  }
+  
+  .spoke-card h4 {
+    font-size: 0.95rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .spoke-card:hover {
+    background-color: #f9f9f9;
+    border-color: #0055ff;
+  }
+  
+  /* Positioning Spokes */
+  .top-left { grid-column: 1; grid-row: 1; }
+  .top-right { grid-column: 3; grid-row: 1; }
+  .bottom-left { grid-column: 1; grid-row: 3; }
+  .bottom-right { grid-column: 3; grid-row: 3; }
+  .bottom-center { grid-column: 2; grid-row: 4; margin-top: 20px;}
+  
+  /* Drawing Connecting Lines using Pseudo-elements */
+  .spoke-card::after {
+    content: '';
+    position: absolute;
+    background-color: #dddddd;
+    z-index: -1;
+  }
+  
+  /* Left side spokes - Line goes Right */
+  .top-left::after, .bottom-left::after {
+    height: 1px;
+    width: 60px;
+    top: 50%;
+    right: -60px;
+  }
+  
+  /* Right side spokes - Line goes Left */
+  .top-right::after, .bottom-right::after {
+    height: 1px;
+    width: 60px;
+    top: 50%;
+    left: -60px;
+  }
+  
+  /* Bottom center spoke - Line goes Up */
+  .bottom-center::after {
+    width: 1px;
+    height: 30px;
+    top: -30px;
+    left: 50%;
+  }
+  
+  /* ------------------------------------------------
+     4. Mobile Responsive
+  ------------------------------------------------ */
+  
+  @media (max-width: 850px) {
+    /* Stack Team Grid */
+    .team-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .card-image {
+      height: 200px;
+    }
+  
+    /* Stack Diagram */
+    .org-diagram {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    
+    .hub-circle {
+      width: 240px;
+      height: 240px;
+      margin-bottom: 24px;
+    }
+    
+    .spoke-card {
+      width: 100%;
+      max-width: 300px;
+    }
+    
+    /* Hide lines on mobile */
+    .spoke-card::after {
+      display: none;
+    }
+  }

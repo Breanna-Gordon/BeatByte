@@ -1,0 +1,4862 @@
+[
+  {
+    "id": "p1001",
+    "title": "Cozy UI Clicks & Pops",
+    "category": "UI",
+    "mood": "Cute",
+    "tags": [
+      "ui",
+      "buttons",
+      "menu",
+      "casual",
+      "cute",
+      "puzzle",
+      "cozy"
+    ],
+    "creatorId": "c001",
+    "rating": 4.8,
+    "createdAt": "2026-01-10",
+    "featured": true,
+    "description": "Soft UI clicks, confirms, toggles, and gentle error sounds.",
+    "trackCount": 24,
+    "duration": {
+      "totalSeconds": 210,
+      "format": "s"
+    },
+    "samples": [
+      "Click_01.wav",
+      "Confirm_02.wav",
+      "Error_Soft_01.wav",
+      "Toggle_01.wav",
+      "Hover_01.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 12,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 25,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 180,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 80,
+    "key": "C maj"
+  },
+  {
+    "id": "p1002",
+    "title": "Neon Alley Ambience",
+    "category": "Ambience",
+    "mood": "Cyber",
+    "tags": [
+      "ambience",
+      "loop",
+      "city",
+      "neon",
+      "rain",
+      "cyber",
+      "sci-fi",
+      "exploration"
+    ],
+    "creatorId": "c002",
+    "rating": 4.6,
+    "createdAt": "2025-12-28",
+    "featured": true,
+    "description": "Loop-ready cyberpunk city ambience with rain and neon buzz.",
+    "trackCount": 6,
+    "duration": {
+      "totalMinutes": 22,
+      "format": "min"
+    },
+    "samples": [
+      "NeonBed_01.wav",
+      "RainLayer_02.wav",
+      "Buzz_03.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 18,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 35,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 220,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1003",
+    "title": "Footsteps Variety Pack",
+    "category": "SFX",
+    "mood": "Dark",
+    "tags": [
+      "sfx",
+      "dark",
+      "racing",
+      "sci-fi",
+      "cyberpunk"
+    ],
+    "creatorId": "c003",
+    "rating": 4.3,
+    "createdAt": "2025-11-03",
+    "featured": false,
+    "description": "Footsteps on wood, tile, gravel, snow, and cloth layers.",
+    "trackCount": 26,
+    "duration": {
+      "totalSeconds": 268,
+      "format": "s"
+    },
+    "samples": [
+      "Bleep_01.wav",
+      "Swipe_02.wav",
+      "Swipe_03.wav",
+      "Click_04.wav",
+      "Pickup_05.wav",
+      "Swipe_06.wav",
+      "Pop_07.wav",
+      "Error_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 11,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 21,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 229,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1004",
+    "title": "Subway Station Loop",
+    "category": "Ambience",
+    "mood": "Cyber",
+    "tags": [
+      "ambience",
+      "loop",
+      "cyber",
+      "exploration",
+      "rpg",
+      "cozy"
+    ],
+    "creatorId": "c001",
+    "rating": 4.2,
+    "createdAt": "2026-02-23",
+    "featured": false,
+    "description": "Distant announcements, trains, vents, crowd murmurs.",
+    "trackCount": 10,
+    "duration": {
+      "totalMinutes": 9,
+      "format": "min"
+    },
+    "samples": [
+      "Rain_01.wav",
+      "Drone_02.wav",
+      "Rain_03.wav",
+      "Cave_04.wav",
+      "Crowd_05.wav",
+      "Cave_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 16,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 36,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 191,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1005",
+    "title": "Cozy UI Clicks",
+    "category": "UI",
+    "mood": "Cyber",
+    "tags": [
+      "ui",
+      "cyber",
+      "adventure",
+      "sci-fi",
+      "fantasy"
+    ],
+    "creatorId": "c003",
+    "rating": 4.7,
+    "createdAt": "2025-08-24",
+    "featured": false,
+    "description": "Soft clicks, toggles, confirms, and gentle errors.",
+    "trackCount": 19,
+    "duration": {
+      "totalSeconds": 270,
+      "format": "s"
+    },
+    "samples": [
+      "Pop_01.wav",
+      "Swipe_02.wav",
+      "Pop_03.wav",
+      "Swipe_04.wav",
+      "Zap_05.wav",
+      "Pickup_06.wav",
+      "Click_07.wav",
+      "Zap_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 14,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 31,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 240,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1006",
+    "title": "Boss Fight Stingers",
+    "category": "Music",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "cyber",
+      "stealth",
+      "cyberpunk",
+      "boss"
+    ],
+    "creatorId": "c002",
+    "rating": 3.9,
+    "createdAt": "2025-11-25",
+    "featured": false,
+    "description": "Short stingers for intros, phase changes, and victories.",
+    "trackCount": 11,
+    "duration": {
+      "totalMinutes": 4,
+      "format": "min"
+    },
+    "samples": [
+      "Stinger_01.wav",
+      "Loop_02.wav",
+      "Theme_03.wav",
+      "Stinger_04.wav",
+      "Layer_05.wav",
+      "Loop_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 26,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 65,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 246,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 110,
+    "key": "F# min"
+  },
+  {
+    "id": "p1007",
+    "title": "Puzzle Win Jingles (Vol. 1)",
+    "category": "Music",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "cyber",
+      "racing",
+      "fantasy",
+      "cyberpunk"
+    ],
+    "creatorId": "c002",
+    "rating": 4.6,
+    "createdAt": "2025-08-22",
+    "featured": false,
+    "description": "Short positive cues for puzzle success.",
+    "trackCount": 9,
+    "duration": {
+      "totalMinutes": 3,
+      "format": "min"
+    },
+    "samples": [
+      "Loop_01.wav",
+      "Loop_02.wav",
+      "Intro_03.wav",
+      "Loop_04.wav",
+      "Stinger_05.wav",
+      "Outro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 21,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 65,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 343,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 100,
+    "key": "A maj"
+  },
+  {
+    "id": "p1008",
+    "title": "Retro Chiptune EP",
+    "category": "EP",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "ep",
+      "dark",
+      "boss",
+      "fantasy",
+      "puzzle"
+    ],
+    "creatorId": "c007",
+    "rating": 4.2,
+    "createdAt": "2025-08-17",
+    "featured": false,
+    "description": "Upbeat chiptune EP for arcade and platformers.",
+    "trackCount": 9,
+    "duration": {
+      "totalMinutes": 19,
+      "format": "min"
+    },
+    "samples": [
+      "Layer_01.wav",
+      "Layer_02.wav",
+      "Cue_03.wav",
+      "Theme_04.wav",
+      "Cue_05.wav",
+      "Layer_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 32,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 59,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 408,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 95,
+    "key": "D# min"
+  },
+  {
+    "id": "p1009",
+    "title": "Cyber Weapon Zaps (Vol. 2)",
+    "category": "SFX",
+    "mood": "Dark",
+    "tags": [
+      "sfx",
+      "dark",
+      "menu",
+      "adventure",
+      "exploration"
+    ],
+    "creatorId": "c003",
+    "rating": 4.3,
+    "createdAt": "2026-02-23",
+    "featured": true,
+    "description": "Laser zaps, charge-ups, and sci-fi impacts.",
+    "trackCount": 27,
+    "duration": {
+      "totalSeconds": 377,
+      "format": "s"
+    },
+    "samples": [
+      "Swipe_01.wav",
+      "Zap_02.wav",
+      "Coin_03.wav",
+      "Zap_04.wav",
+      "Zap_05.wav",
+      "Confirm_06.wav",
+      "Bleep_07.wav",
+      "Hit_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 18,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 36,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 291,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1010",
+    "title": "Footsteps Variety Pack (Vol. 2)",
+    "category": "SFX",
+    "mood": "Epic",
+    "tags": [
+      "sfx",
+      "epic",
+      "stealth",
+      "puzzle",
+      "horror"
+    ],
+    "creatorId": "c003",
+    "rating": 4.1,
+    "createdAt": "2025-11-27",
+    "featured": false,
+    "description": "Footsteps on wood, tile, gravel, snow, and cloth layers.",
+    "trackCount": 25,
+    "duration": {
+      "totalSeconds": 266,
+      "format": "s"
+    },
+    "samples": [
+      "Confirm_01.wav",
+      "Error_02.wav",
+      "Click_03.wav",
+      "Hit_04.wav",
+      "Swipe_05.wav",
+      "Error_06.wav",
+      "Hit_07.wav",
+      "Click_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 11,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 21,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 215,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1011",
+    "title": "Boss Fight Stingers (Vol. 1)",
+    "category": "Music",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "dark",
+      "sci-fi",
+      "cyberpunk",
+      "puzzle"
+    ],
+    "creatorId": "c008",
+    "rating": 4.6,
+    "createdAt": "2026-01-17",
+    "featured": true,
+    "description": "Short stingers for intros, phase changes, and victories.",
+    "trackCount": 10,
+    "duration": {
+      "totalMinutes": 9,
+      "format": "min"
+    },
+    "samples": [
+      "Stinger_01.wav",
+      "Layer_02.wav",
+      "Cue_03.wav",
+      "Cue_04.wav",
+      "Riser_05.wav",
+      "Cue_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 16,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 49,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 311,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 140,
+    "key": "B phr"
+  },
+  {
+    "id": "p1012",
+    "title": "Boss Fight Stingers",
+    "category": "Music",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "cyber",
+      "racing",
+      "horror",
+      "exploration"
+    ],
+    "creatorId": "c005",
+    "rating": 4.8,
+    "createdAt": "2025-08-31",
+    "featured": false,
+    "description": "Short stingers for intros, phase changes, and victories.",
+    "trackCount": 15,
+    "duration": {
+      "totalMinutes": 4,
+      "format": "min"
+    },
+    "samples": [
+      "Cue_01.wav",
+      "Theme_02.wav",
+      "Outro_03.wav",
+      "Riser_04.wav",
+      "Stinger_05.wav",
+      "Layer_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 25,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 47,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 254,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 140,
+    "key": "D# mix"
+  },
+  {
+    "id": "p1013",
+    "title": "Subway Station Loop",
+    "category": "Ambience",
+    "mood": "Cute",
+    "tags": [
+      "ambience",
+      "loop",
+      "cute",
+      "racing",
+      "rpg",
+      "puzzle"
+    ],
+    "creatorId": "c002",
+    "rating": 4.0,
+    "createdAt": "2025-08-26",
+    "featured": false,
+    "description": "Distant announcements, trains, vents, crowd murmurs.",
+    "trackCount": 8,
+    "duration": {
+      "totalMinutes": 26,
+      "format": "min"
+    },
+    "samples": [
+      "Roomtone_01.wav",
+      "Wind_02.wav",
+      "Drone_03.wav",
+      "Bed_04.wav",
+      "Rain_05.wav",
+      "Drone_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 21,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 38,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 270,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1014",
+    "title": "Main Theme: Shadow Archive (Lite)",
+    "category": "Theme",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "theme",
+      "title",
+      "cute",
+      "racing",
+      "horror",
+      "cyberpunk"
+    ],
+    "creatorId": "c002",
+    "rating": 4.2,
+    "createdAt": "2025-10-09",
+    "featured": false,
+    "description": "Dark tension theme for mystery games.",
+    "trackCount": 7,
+    "duration": {
+      "totalMinutes": 4,
+      "format": "min"
+    },
+    "samples": [
+      "Riser_01.wav",
+      "Layer_02.wav",
+      "Stinger_03.wav",
+      "Intro_04.wav",
+      "Stinger_05.wav",
+      "Cue_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 17,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 52,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 300,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 120,
+    "key": "G# min"
+  },
+  {
+    "id": "p1015",
+    "title": "Main Theme: Cozy Cottage",
+    "category": "Theme",
+    "mood": "Chill",
+    "tags": [
+      "music",
+      "theme",
+      "title",
+      "chill",
+      "boss",
+      "cyberpunk",
+      "horror"
+    ],
+    "creatorId": "c002",
+    "rating": 3.9,
+    "createdAt": "2025-12-22",
+    "featured": true,
+    "description": "Warm acoustic theme for life-sims.",
+    "trackCount": 17,
+    "duration": {
+      "totalMinutes": 10,
+      "format": "min"
+    },
+    "samples": [
+      "Loop_01.wav",
+      "Cue_02.wav",
+      "Riser_03.wav",
+      "Loop_04.wav",
+      "Outro_05.wav",
+      "Loop_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 16,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 40,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 273,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 110,
+    "key": "B mix"
+  },
+  {
+    "id": "p1016",
+    "title": "Adaptive Exploration Layers",
+    "category": "Adaptive Music",
+    "mood": "Chill",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "chill",
+      "boss",
+      "racing",
+      "fantasy"
+    ],
+    "creatorId": "c007",
+    "rating": 4.8,
+    "createdAt": "2025-09-30",
+    "featured": false,
+    "description": "Ambient-to-melodic layers for exploration states.",
+    "trackCount": 18,
+    "duration": {
+      "totalMinutes": 14,
+      "format": "min"
+    },
+    "samples": [
+      "Loop_01.wav",
+      "Outro_02.wav",
+      "Cue_03.wav",
+      "Loop_04.wav",
+      "Riser_05.wav",
+      "Outro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 43,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 85,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 346,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 120,
+    "key": "A min",
+    "adaptive": {
+      "stems": 4,
+      "intensityLevels": 5,
+      "transitionType": "beat",
+      "looping": "seamless",
+      "recommendedEngine": "Unreal",
+      "deliverables": [
+        "stems",
+        "full_mix",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1017",
+    "title": "Soft Notifications",
+    "category": "UI",
+    "mood": "Epic",
+    "tags": [
+      "ui",
+      "epic",
+      "cozy",
+      "exploration",
+      "rpg"
+    ],
+    "creatorId": "c003",
+    "rating": 4.2,
+    "createdAt": "2025-10-24",
+    "featured": true,
+    "description": "Playful pings, alerts, and badge pops.",
+    "trackCount": 33,
+    "duration": {
+      "totalSeconds": 391,
+      "format": "s"
+    },
+    "samples": [
+      "Step_01.wav",
+      "Coin_02.wav",
+      "Swipe_03.wav",
+      "Error_04.wav",
+      "Zap_05.wav",
+      "Swipe_06.wav",
+      "Error_07.wav",
+      "Coin_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 8,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 17,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 173,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1018",
+    "title": "Footsteps Variety Pack",
+    "category": "SFX",
+    "mood": "Cute",
+    "tags": [
+      "sfx",
+      "cute",
+      "fantasy",
+      "menu",
+      "exploration"
+    ],
+    "creatorId": "c001",
+    "rating": 4.8,
+    "createdAt": "2025-11-07",
+    "featured": false,
+    "description": "Footsteps on wood, tile, gravel, snow, and cloth layers.",
+    "trackCount": 25,
+    "duration": {
+      "totalSeconds": 275,
+      "format": "s"
+    },
+    "samples": [
+      "Hit_01.wav",
+      "Bleep_02.wav",
+      "Zap_03.wav",
+      "Hit_04.wav",
+      "Error_05.wav",
+      "Error_06.wav",
+      "Swipe_07.wav",
+      "Bleep_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 18,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 29,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 212,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1019",
+    "title": "Subway Station Loop",
+    "category": "Ambience",
+    "mood": "Cute",
+    "tags": [
+      "ambience",
+      "loop",
+      "cute",
+      "racing",
+      "menu",
+      "cyberpunk"
+    ],
+    "creatorId": "c006",
+    "rating": 4.3,
+    "createdAt": "2026-01-18",
+    "featured": false,
+    "description": "Distant announcements, trains, vents, crowd murmurs.",
+    "trackCount": 8,
+    "duration": {
+      "totalMinutes": 17,
+      "format": "min"
+    },
+    "samples": [
+      "Roomtone_01.wav",
+      "Forest_02.wav",
+      "Wind_03.wav",
+      "Rain_04.wav",
+      "Crowd_05.wav",
+      "Crowd_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 17,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 48,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 313,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1020",
+    "title": "Subway Station Loop (Pack B)",
+    "category": "Ambience",
+    "mood": "Cyber",
+    "tags": [
+      "ambience",
+      "loop",
+      "cyber",
+      "exploration",
+      "adventure",
+      "menu"
+    ],
+    "creatorId": "c001",
+    "rating": 4.3,
+    "createdAt": "2025-11-28",
+    "featured": false,
+    "description": "Distant announcements, trains, vents, crowd murmurs.",
+    "trackCount": 9,
+    "duration": {
+      "totalMinutes": 18,
+      "format": "min"
+    },
+    "samples": [
+      "Forest_01.wav",
+      "Cave_02.wav",
+      "Wind_03.wav",
+      "Bed_04.wav",
+      "Roomtone_05.wav",
+      "Forest_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 22,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 36,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 348,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1021",
+    "title": "Arcade UI Blips (Vol. 1)",
+    "category": "UI",
+    "mood": "Cute",
+    "tags": [
+      "ui",
+      "cute",
+      "cozy",
+      "puzzle",
+      "adventure"
+    ],
+    "creatorId": "c002",
+    "rating": 4.8,
+    "createdAt": "2025-11-15",
+    "featured": false,
+    "description": "Crunchy arcade bleeps, score ticks, and countdowns.",
+    "trackCount": 39,
+    "duration": {
+      "totalSeconds": 453,
+      "format": "s"
+    },
+    "samples": [
+      "Bleep_01.wav",
+      "Bleep_02.wav",
+      "Zap_03.wav",
+      "Confirm_04.wav",
+      "Zap_05.wav",
+      "Whoosh_06.wav",
+      "Pop_07.wav",
+      "Swipe_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 8,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 28,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 145,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1022",
+    "title": "Horror Tension EP",
+    "category": "EP",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "ep",
+      "dark",
+      "stealth",
+      "cozy",
+      "racing"
+    ],
+    "creatorId": "c005",
+    "rating": 4.5,
+    "createdAt": "2025-12-22",
+    "featured": false,
+    "description": "Dark EP with drones, pulses, and suspense cues.",
+    "trackCount": 8,
+    "duration": {
+      "totalMinutes": 14,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Outro_02.wav",
+      "Intro_03.wav",
+      "Loop_04.wav",
+      "Intro_05.wav",
+      "Intro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 44,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 84,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 590,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 155,
+    "key": "G phr"
+  },
+  {
+    "id": "p1023",
+    "title": "Arcade UI Blips (Vol. 1)",
+    "category": "UI",
+    "mood": "Cyber",
+    "tags": [
+      "ui",
+      "cyber",
+      "menu",
+      "cyberpunk",
+      "cozy"
+    ],
+    "creatorId": "c004",
+    "rating": 4.0,
+    "createdAt": "2025-12-17",
+    "featured": true,
+    "description": "Crunchy arcade bleeps, score ticks, and countdowns.",
+    "trackCount": 20,
+    "duration": {
+      "totalSeconds": 290,
+      "format": "s"
+    },
+    "samples": [
+      "Zap_01.wav",
+      "Bleep_02.wav",
+      "Pop_03.wav",
+      "Bleep_04.wav",
+      "Whoosh_05.wav",
+      "Click_06.wav",
+      "Zap_07.wav",
+      "Zap_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 13,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 29,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 238,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1024",
+    "title": "Haunted Hallway Tones",
+    "category": "Ambience",
+    "mood": "Dark",
+    "tags": [
+      "ambience",
+      "loop",
+      "dark",
+      "adventure",
+      "menu",
+      "rpg"
+    ],
+    "creatorId": "c002",
+    "rating": 4.3,
+    "createdAt": "2025-12-26",
+    "featured": true,
+    "description": "Creaks and distant knocks for suspense.",
+    "trackCount": 10,
+    "duration": {
+      "totalMinutes": 32,
+      "format": "min"
+    },
+    "samples": [
+      "Drone_01.wav",
+      "Roomtone_02.wav",
+      "Crowd_03.wav",
+      "Crowd_04.wav",
+      "Forest_05.wav",
+      "Forest_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 19,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 46,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 222,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1025",
+    "title": "Cyber Menu Glitches (Lite)",
+    "category": "UI",
+    "mood": "Epic",
+    "tags": [
+      "ui",
+      "epic",
+      "exploration",
+      "sci-fi",
+      "horror"
+    ],
+    "creatorId": "c001",
+    "rating": 4.4,
+    "createdAt": "2026-01-07",
+    "featured": false,
+    "description": "Glitch bursts, denial tones, and scan sweeps.",
+    "trackCount": 38,
+    "duration": {
+      "totalSeconds": 354,
+      "format": "s"
+    },
+    "samples": [
+      "Pickup_01.wav",
+      "Pickup_02.wav",
+      "Swipe_03.wav",
+      "Hit_04.wav",
+      "Click_05.wav",
+      "Swipe_06.wav",
+      "Zap_07.wav",
+      "Pop_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 15,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 25,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 127,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1026",
+    "title": "Cyber Menu Glitches (Pack B)",
+    "category": "UI",
+    "mood": "Cute",
+    "tags": [
+      "ui",
+      "cute",
+      "cyberpunk",
+      "sci-fi",
+      "exploration"
+    ],
+    "creatorId": "c002",
+    "rating": 4.6,
+    "createdAt": "2025-08-05",
+    "featured": true,
+    "description": "Glitch bursts, denial tones, and scan sweeps.",
+    "trackCount": 38,
+    "duration": {
+      "totalSeconds": 445,
+      "format": "s"
+    },
+    "samples": [
+      "Coin_01.wav",
+      "Whoosh_02.wav",
+      "Swipe_03.wav",
+      "Click_04.wav",
+      "Swipe_05.wav",
+      "Hit_06.wav",
+      "Hit_07.wav",
+      "Whoosh_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 11,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 19,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 268,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1027",
+    "title": "Footsteps Variety Pack",
+    "category": "SFX",
+    "mood": "Dark",
+    "tags": [
+      "sfx",
+      "dark",
+      "cozy",
+      "puzzle",
+      "cyberpunk"
+    ],
+    "creatorId": "c004",
+    "rating": 4.5,
+    "createdAt": "2026-01-03",
+    "featured": false,
+    "description": "Footsteps on wood, tile, gravel, snow, and cloth layers.",
+    "trackCount": 36,
+    "duration": {
+      "totalSeconds": 319,
+      "format": "s"
+    },
+    "samples": [
+      "Click_01.wav",
+      "Pop_02.wav",
+      "Step_03.wav",
+      "Click_04.wav",
+      "Pickup_05.wav",
+      "Hit_06.wav",
+      "Step_07.wav",
+      "Pickup_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 18,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 32,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 223,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1028",
+    "title": "Adaptive Puzzle System",
+    "category": "Adaptive Music",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "dark",
+      "boss",
+      "cozy",
+      "racing"
+    ],
+    "creatorId": "c002",
+    "rating": 4.0,
+    "createdAt": "2026-02-23",
+    "featured": false,
+    "description": "Sparse layers that bloom on progress.",
+    "trackCount": 17,
+    "duration": {
+      "totalMinutes": 18,
+      "format": "min"
+    },
+    "samples": [
+      "Cue_01.wav",
+      "Riser_02.wav",
+      "Outro_03.wav",
+      "Riser_04.wav",
+      "Theme_05.wav",
+      "Riser_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 28,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 79,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 509,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 110,
+    "key": "A# phr",
+    "adaptive": {
+      "stems": 8,
+      "intensityLevels": 3,
+      "transitionType": "beat",
+      "looping": "crossfade",
+      "recommendedEngine": "Unreal",
+      "deliverables": [
+        "stems",
+        "full_mix",
+        "stingers",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1029",
+    "title": "Potion & Inventory SFX",
+    "category": "SFX",
+    "mood": "Dark",
+    "tags": [
+      "sfx",
+      "dark",
+      "stealth",
+      "puzzle",
+      "menu"
+    ],
+    "creatorId": "c003",
+    "rating": 4.7,
+    "createdAt": "2025-10-02",
+    "featured": true,
+    "description": "Bottle clinks, bag rustles, and item pickups.",
+    "trackCount": 25,
+    "duration": {
+      "totalSeconds": 313,
+      "format": "s"
+    },
+    "samples": [
+      "Confirm_01.wav",
+      "Whoosh_02.wav",
+      "Confirm_03.wav",
+      "Pickup_04.wav",
+      "Pickup_05.wav",
+      "Swipe_06.wav",
+      "Zap_07.wav",
+      "Coin_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 8,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 23,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 196,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1030",
+    "title": "Soft Notifications (Expanded)",
+    "category": "UI",
+    "mood": "Dark",
+    "tags": [
+      "ui",
+      "dark",
+      "menu",
+      "cyberpunk",
+      "stealth"
+    ],
+    "creatorId": "c003",
+    "rating": 4.1,
+    "createdAt": "2025-08-22",
+    "featured": false,
+    "description": "Playful pings, alerts, and badge pops.",
+    "trackCount": 12,
+    "duration": {
+      "totalSeconds": 249,
+      "format": "s"
+    },
+    "samples": [
+      "Error_01.wav",
+      "Whoosh_02.wav",
+      "Bleep_03.wav",
+      "Confirm_04.wav",
+      "Swipe_05.wav",
+      "Bleep_06.wav",
+      "Confirm_07.wav",
+      "Confirm_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 8,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 17,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 182,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1031",
+    "title": "Cozy UI Clicks",
+    "category": "UI",
+    "mood": "Dark",
+    "tags": [
+      "ui",
+      "dark",
+      "stealth",
+      "exploration",
+      "fantasy"
+    ],
+    "creatorId": "c003",
+    "rating": 4.4,
+    "createdAt": "2026-01-27",
+    "featured": false,
+    "description": "Soft clicks, toggles, confirms, and gentle errors.",
+    "trackCount": 25,
+    "duration": {
+      "totalSeconds": 329,
+      "format": "s"
+    },
+    "samples": [
+      "Whoosh_01.wav",
+      "Click_02.wav",
+      "Bleep_03.wav",
+      "Whoosh_04.wav",
+      "Coin_05.wav",
+      "Click_06.wav",
+      "Bleep_07.wav",
+      "Error_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 10,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 21,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 166,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1032",
+    "title": "Neon Drift EP",
+    "category": "EP",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "ep",
+      "cute",
+      "cyberpunk",
+      "cozy",
+      "fantasy"
+    ],
+    "creatorId": "c007",
+    "rating": 4.2,
+    "createdAt": "2025-09-02",
+    "featured": false,
+    "description": "Five-track synthwave EP for racing and night city play.",
+    "trackCount": 6,
+    "duration": {
+      "totalMinutes": 16,
+      "format": "min"
+    },
+    "samples": [
+      "Stinger_01.wav",
+      "Loop_02.wav",
+      "Intro_03.wav",
+      "Theme_04.wav",
+      "Cue_05.wav",
+      "Stinger_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 58,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 113,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 518,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 95,
+    "key": "B phr"
+  },
+  {
+    "id": "p1033",
+    "title": "Haunted Hallway Tones (Vol. 1)",
+    "category": "Ambience",
+    "mood": "Chill",
+    "tags": [
+      "ambience",
+      "loop",
+      "chill",
+      "sci-fi",
+      "puzzle",
+      "racing"
+    ],
+    "creatorId": "c002",
+    "rating": 4.0,
+    "createdAt": "2026-01-23",
+    "featured": true,
+    "description": "Creaks and distant knocks for suspense.",
+    "trackCount": 8,
+    "duration": {
+      "totalMinutes": 28,
+      "format": "min"
+    },
+    "samples": [
+      "Roomtone_01.wav",
+      "Bed_02.wav",
+      "Rain_03.wav",
+      "Bed_04.wav",
+      "Forest_05.wav",
+      "Crowd_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 19,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 47,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 264,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1034",
+    "title": "Puzzle Win Jingles",
+    "category": "Music",
+    "mood": "Epic",
+    "tags": [
+      "music",
+      "epic",
+      "cyberpunk",
+      "adventure",
+      "menu"
+    ],
+    "creatorId": "c007",
+    "rating": 4.1,
+    "createdAt": "2026-01-08",
+    "featured": false,
+    "description": "Short positive cues for puzzle success.",
+    "trackCount": 6,
+    "duration": {
+      "totalMinutes": 12,
+      "format": "min"
+    },
+    "samples": [
+      "Loop_01.wav",
+      "Layer_02.wav",
+      "Loop_03.wav",
+      "Theme_04.wav",
+      "Loop_05.wav",
+      "Cue_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 28,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 57,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 373,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 140,
+    "key": "C# min"
+  },
+  {
+    "id": "p1035",
+    "title": "Cozy Pixel Town OST (Pack A)",
+    "category": "Soundtrack",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "soundtrack",
+      "ost",
+      "cute",
+      "menu",
+      "puzzle",
+      "racing"
+    ],
+    "creatorId": "c002",
+    "rating": 4.7,
+    "createdAt": "2026-01-17",
+    "featured": false,
+    "description": "Warm looping soundtrack for life-sim games.",
+    "trackCount": 19,
+    "duration": {
+      "totalMinutes": 41,
+      "format": "min"
+    },
+    "samples": [
+      "Theme_01.wav",
+      "Layer_02.wav",
+      "Loop_03.wav",
+      "Stinger_04.wav",
+      "Loop_05.wav",
+      "Theme_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 31,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 66,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 403,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 140,
+    "key": "A# phr"
+  },
+  {
+    "id": "p1036",
+    "title": "Deep Space OST (Lite)",
+    "category": "Soundtrack",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "soundtrack",
+      "ost",
+      "cyber",
+      "cyberpunk",
+      "menu",
+      "sci-fi"
+    ],
+    "creatorId": "c007",
+    "rating": 4.5,
+    "createdAt": "2025-08-21",
+    "featured": false,
+    "description": "Sci-fi soundtrack for vast, atmospheric gameplay.",
+    "trackCount": 20,
+    "duration": {
+      "totalMinutes": 57,
+      "format": "min"
+    },
+    "samples": [
+      "Riser_01.wav",
+      "Stinger_02.wav",
+      "Cue_03.wav",
+      "Theme_04.wav",
+      "Layer_05.wav",
+      "Cue_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 45,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 106,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 306,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 120,
+    "key": "G mix"
+  },
+  {
+    "id": "p1037",
+    "title": "Horror Tension EP",
+    "category": "EP",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "ep",
+      "dark",
+      "cyberpunk",
+      "horror",
+      "adventure"
+    ],
+    "creatorId": "c008",
+    "rating": 4.2,
+    "createdAt": "2025-11-29",
+    "featured": false,
+    "description": "Dark EP with drones, pulses, and suspense cues.",
+    "trackCount": 8,
+    "duration": {
+      "totalMinutes": 22,
+      "format": "min"
+    },
+    "samples": [
+      "Theme_01.wav",
+      "Loop_02.wav",
+      "Riser_03.wav",
+      "Outro_04.wav",
+      "Intro_05.wav",
+      "Stinger_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 53,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 113,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 311,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 155,
+    "key": "G maj"
+  },
+  {
+    "id": "p1038",
+    "title": "Trailer Braams Mini (Pack B)",
+    "category": "Music",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "cute",
+      "stealth",
+      "rpg",
+      "boss"
+    ],
+    "creatorId": "c007",
+    "rating": 4.3,
+    "createdAt": "2025-12-11",
+    "featured": false,
+    "description": "Short cinematic braams and impact hits.",
+    "trackCount": 14,
+    "duration": {
+      "totalMinutes": 10,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Cue_02.wav",
+      "Layer_03.wav",
+      "Stinger_04.wav",
+      "Loop_05.wav",
+      "Stinger_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 29,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 72,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 390,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 120,
+    "key": "C min"
+  },
+  {
+    "id": "p1039",
+    "title": "Epic Percussion Hits (Vol. 1)",
+    "category": "Music",
+    "mood": "Chill",
+    "tags": [
+      "music",
+      "chill",
+      "stealth",
+      "sci-fi",
+      "racing"
+    ],
+    "creatorId": "c005",
+    "rating": 4.8,
+    "createdAt": "2025-12-06",
+    "featured": false,
+    "description": "Percussive hits for dramatic moments.",
+    "trackCount": 9,
+    "duration": {
+      "totalMinutes": 4,
+      "format": "min"
+    },
+    "samples": [
+      "Stinger_01.wav",
+      "Outro_02.wav",
+      "Intro_03.wav",
+      "Intro_04.wav",
+      "Layer_05.wav",
+      "Intro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 32,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 51,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 289,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 120,
+    "key": "C# min"
+  },
+  {
+    "id": "p1040",
+    "title": "Minimal Menu Tones (Pack B)",
+    "category": "UI",
+    "mood": "Cyber",
+    "tags": [
+      "ui",
+      "cyber",
+      "fantasy",
+      "stealth",
+      "cyberpunk"
+    ],
+    "creatorId": "c002",
+    "rating": 4.2,
+    "createdAt": "2026-02-02",
+    "featured": false,
+    "description": "Clean, subtle UI tones for calm interfaces.",
+    "trackCount": 38,
+    "duration": {
+      "totalSeconds": 311,
+      "format": "s"
+    },
+    "samples": [
+      "Swipe_01.wav",
+      "Confirm_02.wav",
+      "Pop_03.wav",
+      "Confirm_04.wav",
+      "Error_05.wav",
+      "Confirm_06.wav",
+      "Coin_07.wav",
+      "Coin_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 16,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 36,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 265,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1041",
+    "title": "Forest Morning Bed",
+    "category": "Ambience",
+    "mood": "Cute",
+    "tags": [
+      "ambience",
+      "loop",
+      "cute",
+      "cozy",
+      "sci-fi",
+      "rpg"
+    ],
+    "creatorId": "c001",
+    "rating": 4.6,
+    "createdAt": "2025-11-30",
+    "featured": false,
+    "description": "Birdsong and gentle wind for forest scenes.",
+    "trackCount": 6,
+    "duration": {
+      "totalMinutes": 31,
+      "format": "min"
+    },
+    "samples": [
+      "Crowd_01.wav",
+      "Wind_02.wav",
+      "Cave_03.wav",
+      "Loop_04.wav",
+      "Wind_05.wav",
+      "Forest_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 22,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 37,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 269,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1042",
+    "title": "Combat Swishes & Whooshes",
+    "category": "SFX",
+    "mood": "Epic",
+    "tags": [
+      "sfx",
+      "epic",
+      "boss",
+      "horror",
+      "racing"
+    ],
+    "creatorId": "c001",
+    "rating": 4.6,
+    "createdAt": "2026-01-07",
+    "featured": false,
+    "description": "Swishes for melee swings, dodges, and fast movement.",
+    "trackCount": 27,
+    "duration": {
+      "totalSeconds": 328,
+      "format": "s"
+    },
+    "samples": [
+      "Coin_01.wav",
+      "Swipe_02.wav",
+      "Error_03.wav",
+      "Zap_04.wav",
+      "Coin_05.wav",
+      "Swipe_06.wav",
+      "Bleep_07.wav",
+      "Confirm_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 16,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 24,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 272,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1043",
+    "title": "Footsteps Variety Pack",
+    "category": "SFX",
+    "mood": "Cute",
+    "tags": [
+      "sfx",
+      "cute",
+      "racing",
+      "boss",
+      "exploration"
+    ],
+    "creatorId": "c002",
+    "rating": 3.9,
+    "createdAt": "2025-08-08",
+    "featured": false,
+    "description": "Footsteps on wood, tile, gravel, snow, and cloth layers.",
+    "trackCount": 26,
+    "duration": {
+      "totalSeconds": 269,
+      "format": "s"
+    },
+    "samples": [
+      "Step_01.wav",
+      "Coin_02.wav",
+      "Coin_03.wav",
+      "Zap_04.wav",
+      "Pop_05.wav",
+      "Whoosh_06.wav",
+      "Error_07.wav",
+      "Zap_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 17,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 35,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 171,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1044",
+    "title": "Potion & Inventory SFX",
+    "category": "SFX",
+    "mood": "Chill",
+    "tags": [
+      "sfx",
+      "chill",
+      "puzzle",
+      "adventure",
+      "horror"
+    ],
+    "creatorId": "c004",
+    "rating": 4.2,
+    "createdAt": "2025-11-26",
+    "featured": true,
+    "description": "Bottle clinks, bag rustles, and item pickups.",
+    "trackCount": 19,
+    "duration": {
+      "totalSeconds": 296,
+      "format": "s"
+    },
+    "samples": [
+      "Confirm_01.wav",
+      "Step_02.wav",
+      "Swipe_03.wav",
+      "Error_04.wav",
+      "Pop_05.wav",
+      "Click_06.wav",
+      "Confirm_07.wav",
+      "Coin_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 17,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 29,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 282,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1045",
+    "title": "Adaptive Boss System (Pack B)",
+    "category": "Adaptive Music",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "cute",
+      "puzzle",
+      "racing",
+      "cozy"
+    ],
+    "creatorId": "c008",
+    "rating": 4.2,
+    "createdAt": "2026-01-27",
+    "featured": false,
+    "description": "Stems for boss phases with punch-in stingers.",
+    "trackCount": 12,
+    "duration": {
+      "totalMinutes": 15,
+      "format": "min"
+    },
+    "samples": [
+      "Outro_01.wav",
+      "Stinger_02.wav",
+      "Cue_03.wav",
+      "Cue_04.wav",
+      "Intro_05.wav",
+      "Stinger_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 42,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 105,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 465,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 110,
+    "key": "A dor",
+    "adaptive": {
+      "stems": 5,
+      "intensityLevels": 3,
+      "transitionType": "marker",
+      "looping": "tail",
+      "recommendedEngine": "Wwise",
+      "deliverables": [
+        "stems",
+        "full_mix",
+        "stingers",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1046",
+    "title": "Cyber Weapon Zaps (Pack A)",
+    "category": "SFX",
+    "mood": "Chill",
+    "tags": [
+      "sfx",
+      "chill",
+      "menu",
+      "horror",
+      "racing"
+    ],
+    "creatorId": "c003",
+    "rating": 4.1,
+    "createdAt": "2025-09-14",
+    "featured": false,
+    "description": "Laser zaps, charge-ups, and sci-fi impacts.",
+    "trackCount": 21,
+    "duration": {
+      "totalSeconds": 317,
+      "format": "s"
+    },
+    "samples": [
+      "Coin_01.wav",
+      "Error_02.wav",
+      "Error_03.wav",
+      "Step_04.wav",
+      "Pop_05.wav",
+      "Step_06.wav",
+      "Confirm_07.wav",
+      "Step_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 13,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 33,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 152,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1047",
+    "title": "Epic Percussion Hits",
+    "category": "Music",
+    "mood": "Chill",
+    "tags": [
+      "music",
+      "chill",
+      "menu",
+      "boss",
+      "sci-fi"
+    ],
+    "creatorId": "c005",
+    "rating": 4.2,
+    "createdAt": "2025-08-04",
+    "featured": true,
+    "description": "Percussive hits for dramatic moments.",
+    "trackCount": 18,
+    "duration": {
+      "totalMinutes": 11,
+      "format": "min"
+    },
+    "samples": [
+      "Riser_01.wav",
+      "Stinger_02.wav",
+      "Outro_03.wav",
+      "Riser_04.wav",
+      "Theme_05.wav",
+      "Layer_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 30,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 45,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 343,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 110,
+    "key": "C# mix"
+  },
+  {
+    "id": "p1048",
+    "title": "Adaptive Puzzle System (Vol. 1)",
+    "category": "Adaptive Music",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "cyber",
+      "boss",
+      "puzzle",
+      "cyberpunk"
+    ],
+    "creatorId": "c007",
+    "rating": 4.2,
+    "createdAt": "2025-08-10",
+    "featured": false,
+    "description": "Sparse layers that bloom on progress.",
+    "trackCount": 16,
+    "duration": {
+      "totalMinutes": 12,
+      "format": "min"
+    },
+    "samples": [
+      "Theme_01.wav",
+      "Layer_02.wav",
+      "Loop_03.wav",
+      "Outro_04.wav",
+      "Intro_05.wav",
+      "Riser_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 62,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 113,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 593,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 90,
+    "key": "D maj",
+    "adaptive": {
+      "stems": 5,
+      "intensityLevels": 5,
+      "transitionType": "beat",
+      "looping": "crossfade",
+      "recommendedEngine": "FMOD",
+      "deliverables": [
+        "stems",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1049",
+    "title": "Sky Islands OST (Pack B)",
+    "category": "Soundtrack",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "soundtrack",
+      "ost",
+      "cute",
+      "cozy",
+      "fantasy",
+      "racing"
+    ],
+    "creatorId": "c002",
+    "rating": 4.2,
+    "createdAt": "2025-11-10",
+    "featured": false,
+    "description": "Adventure soundtrack for exploration and flying.",
+    "trackCount": 23,
+    "duration": {
+      "totalMinutes": 59,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Theme_02.wav",
+      "Layer_03.wav",
+      "Cue_04.wav",
+      "Cue_05.wav",
+      "Riser_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 43,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 76,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 545,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 130,
+    "key": "F maj"
+  },
+  {
+    "id": "p1050",
+    "title": "Cozy UI Clicks (Vol. 2)",
+    "category": "UI",
+    "mood": "Cyber",
+    "tags": [
+      "ui",
+      "cyber",
+      "fantasy",
+      "horror",
+      "adventure"
+    ],
+    "creatorId": "c002",
+    "rating": 4.4,
+    "createdAt": "2025-09-03",
+    "featured": false,
+    "description": "Soft clicks, toggles, confirms, and gentle errors.",
+    "trackCount": 12,
+    "duration": {
+      "totalSeconds": 175,
+      "format": "s"
+    },
+    "samples": [
+      "Click_01.wav",
+      "Swipe_02.wav",
+      "Hit_03.wav",
+      "Pop_04.wav",
+      "Hit_05.wav",
+      "Coin_06.wav",
+      "Whoosh_07.wav",
+      "Pickup_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 13,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 21,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 155,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1051",
+    "title": "Cozy UI Clicks (Vol. 1)",
+    "category": "UI",
+    "mood": "Dark",
+    "tags": [
+      "ui",
+      "dark",
+      "puzzle",
+      "exploration",
+      "fantasy"
+    ],
+    "creatorId": "c004",
+    "rating": 4.1,
+    "createdAt": "2025-12-07",
+    "featured": false,
+    "description": "Soft clicks, toggles, confirms, and gentle errors.",
+    "trackCount": 28,
+    "duration": {
+      "totalSeconds": 352,
+      "format": "s"
+    },
+    "samples": [
+      "Bleep_01.wav",
+      "Swipe_02.wav",
+      "Error_03.wav",
+      "Step_04.wav",
+      "Confirm_05.wav",
+      "Swipe_06.wav",
+      "Hit_07.wav",
+      "Hit_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 15,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 29,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 228,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1052",
+    "title": "Neon Drift EP",
+    "category": "EP",
+    "mood": "Epic",
+    "tags": [
+      "music",
+      "ep",
+      "epic",
+      "fantasy",
+      "adventure",
+      "horror"
+    ],
+    "creatorId": "c008",
+    "rating": 4.6,
+    "createdAt": "2025-12-19",
+    "featured": false,
+    "description": "Five-track synthwave EP for racing and night city play.",
+    "trackCount": 5,
+    "duration": {
+      "totalMinutes": 14,
+      "format": "min"
+    },
+    "samples": [
+      "Stinger_01.wav",
+      "Intro_02.wav",
+      "Outro_03.wav",
+      "Theme_04.wav",
+      "Theme_05.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 63,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 101,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 501,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 115,
+    "key": "A phr"
+  },
+  {
+    "id": "p1053",
+    "title": "Trailer Braams Mini",
+    "category": "Music",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "dark",
+      "sci-fi",
+      "exploration",
+      "racing"
+    ],
+    "creatorId": "c008",
+    "rating": 4.9,
+    "createdAt": "2025-11-04",
+    "featured": false,
+    "description": "Short cinematic braams and impact hits.",
+    "trackCount": 11,
+    "duration": {
+      "totalMinutes": 9,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Theme_02.wav",
+      "Theme_03.wav",
+      "Theme_04.wav",
+      "Theme_05.wav",
+      "Outro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 18,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 56,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 385,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 110,
+    "key": "A# dor"
+  },
+  {
+    "id": "p1054",
+    "title": "Rainy Window Loops",
+    "category": "Ambience",
+    "mood": "Dark",
+    "tags": [
+      "ambience",
+      "loop",
+      "dark",
+      "stealth",
+      "exploration",
+      "fantasy"
+    ],
+    "creatorId": "c006",
+    "rating": 4.3,
+    "createdAt": "2025-11-14",
+    "featured": false,
+    "description": "Cozy rain-on-window ambience loops.",
+    "trackCount": 9,
+    "duration": {
+      "totalMinutes": 11,
+      "format": "min"
+    },
+    "samples": [
+      "Crowd_01.wav",
+      "Loop_02.wav",
+      "Roomtone_03.wav",
+      "Roomtone_04.wav",
+      "Drone_05.wav",
+      "Bed_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 28,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 46,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 205,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1055",
+    "title": "Sky Islands OST",
+    "category": "Soundtrack",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "soundtrack",
+      "ost",
+      "dark",
+      "fantasy",
+      "racing",
+      "cyberpunk"
+    ],
+    "creatorId": "c002",
+    "rating": 4.6,
+    "createdAt": "2026-01-05",
+    "featured": false,
+    "description": "Adventure soundtrack for exploration and flying.",
+    "trackCount": 19,
+    "duration": {
+      "totalMinutes": 52,
+      "format": "min"
+    },
+    "samples": [
+      "Stinger_01.wav",
+      "Cue_02.wav",
+      "Loop_03.wav",
+      "Stinger_04.wav",
+      "Stinger_05.wav",
+      "Riser_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 50,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 75,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 347,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 140,
+    "key": "G# phr"
+  },
+  {
+    "id": "p1056",
+    "title": "Adaptive Combat Layers \u2013 Sci\u2011Fi (Lite)",
+    "category": "Adaptive Music",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "cyber",
+      "rpg",
+      "racing",
+      "stealth"
+    ],
+    "creatorId": "c008",
+    "rating": 4.3,
+    "createdAt": "2025-09-10",
+    "featured": false,
+    "description": "Layered combat music with intensity transitions.",
+    "trackCount": 9,
+    "duration": {
+      "totalMinutes": 12,
+      "format": "min"
+    },
+    "samples": [
+      "Theme_01.wav",
+      "Cue_02.wav",
+      "Loop_03.wav",
+      "Loop_04.wav",
+      "Cue_05.wav",
+      "Theme_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 45,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 98,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 616,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 120,
+    "key": "G dor",
+    "adaptive": {
+      "stems": 8,
+      "intensityLevels": 4,
+      "transitionType": "marker",
+      "looping": "tail",
+      "recommendedEngine": "Unreal",
+      "deliverables": [
+        "stems",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1057",
+    "title": "Soft Notifications",
+    "category": "UI",
+    "mood": "Cyber",
+    "tags": [
+      "ui",
+      "cyber",
+      "cyberpunk",
+      "boss",
+      "menu"
+    ],
+    "creatorId": "c001",
+    "rating": 4.1,
+    "createdAt": "2025-08-12",
+    "featured": false,
+    "description": "Playful pings, alerts, and badge pops.",
+    "trackCount": 30,
+    "duration": {
+      "totalSeconds": 379,
+      "format": "s"
+    },
+    "samples": [
+      "Hit_01.wav",
+      "Hit_02.wav",
+      "Whoosh_03.wav",
+      "Step_04.wav",
+      "Whoosh_05.wav",
+      "Pop_06.wav",
+      "Step_07.wav",
+      "Step_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 13,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 22,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 113,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1058",
+    "title": "Epic Percussion Hits",
+    "category": "Music",
+    "mood": "Epic",
+    "tags": [
+      "music",
+      "epic",
+      "menu",
+      "cozy",
+      "stealth"
+    ],
+    "creatorId": "c005",
+    "rating": 3.9,
+    "createdAt": "2025-11-20",
+    "featured": false,
+    "description": "Percussive hits for dramatic moments.",
+    "trackCount": 14,
+    "duration": {
+      "totalMinutes": 8,
+      "format": "min"
+    },
+    "samples": [
+      "Riser_01.wav",
+      "Outro_02.wav",
+      "Outro_03.wav",
+      "Outro_04.wav",
+      "Stinger_05.wav",
+      "Theme_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 27,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 42,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 265,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 90,
+    "key": "F# maj"
+  },
+  {
+    "id": "p1059",
+    "title": "Cute Creature Voices (Vol. 1)",
+    "category": "SFX",
+    "mood": "Cyber",
+    "tags": [
+      "sfx",
+      "cyber",
+      "cozy",
+      "sci-fi",
+      "adventure"
+    ],
+    "creatorId": "c004",
+    "rating": 4.8,
+    "createdAt": "2025-11-10",
+    "featured": false,
+    "description": "Squeaks, chirps, and emotive NPC bursts.",
+    "trackCount": 24,
+    "duration": {
+      "totalSeconds": 275,
+      "format": "s"
+    },
+    "samples": [
+      "Whoosh_01.wav",
+      "Coin_02.wav",
+      "Pop_03.wav",
+      "Click_04.wav",
+      "Error_05.wav",
+      "Swipe_06.wav",
+      "Click_07.wav",
+      "Error_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 16,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 27,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 206,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1060",
+    "title": "Rainy Window Loops (Vol. 2)",
+    "category": "Ambience",
+    "mood": "Dark",
+    "tags": [
+      "ambience",
+      "loop",
+      "dark",
+      "horror",
+      "adventure",
+      "exploration"
+    ],
+    "creatorId": "c001",
+    "rating": 4.0,
+    "createdAt": "2026-01-15",
+    "featured": false,
+    "description": "Cozy rain-on-window ambience loops.",
+    "trackCount": 10,
+    "duration": {
+      "totalMinutes": 32,
+      "format": "min"
+    },
+    "samples": [
+      "Cave_01.wav",
+      "Cave_02.wav",
+      "Cave_03.wav",
+      "Drone_04.wav",
+      "Drone_05.wav",
+      "Wind_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 26,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 40,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 280,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1061",
+    "title": "Puzzle Win Jingles (Expanded)",
+    "category": "Music",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "cute",
+      "racing",
+      "cyberpunk",
+      "puzzle"
+    ],
+    "creatorId": "c007",
+    "rating": 4.5,
+    "createdAt": "2025-08-20",
+    "featured": false,
+    "description": "Short positive cues for puzzle success.",
+    "trackCount": 13,
+    "duration": {
+      "totalMinutes": 3,
+      "format": "min"
+    },
+    "samples": [
+      "Theme_01.wav",
+      "Outro_02.wav",
+      "Intro_03.wav",
+      "Cue_04.wav",
+      "Intro_05.wav",
+      "Layer_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 25,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 59,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 320,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 90,
+    "key": "F dor"
+  },
+  {
+    "id": "p1062",
+    "title": "Boss Fight Stingers",
+    "category": "Music",
+    "mood": "Chill",
+    "tags": [
+      "music",
+      "chill",
+      "fantasy",
+      "menu",
+      "racing"
+    ],
+    "creatorId": "c008",
+    "rating": 4.4,
+    "createdAt": "2025-11-21",
+    "featured": false,
+    "description": "Short stingers for intros, phase changes, and victories.",
+    "trackCount": 14,
+    "duration": {
+      "totalMinutes": 5,
+      "format": "min"
+    },
+    "samples": [
+      "Riser_01.wav",
+      "Riser_02.wav",
+      "Stinger_03.wav",
+      "Outro_04.wav",
+      "Outro_05.wav",
+      "Riser_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 34,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 50,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 392,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 90,
+    "key": "D# mix"
+  },
+  {
+    "id": "p1063",
+    "title": "Sky Islands OST (Lite)",
+    "category": "Soundtrack",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "soundtrack",
+      "ost",
+      "cute",
+      "sci-fi",
+      "cyberpunk",
+      "menu"
+    ],
+    "creatorId": "c002",
+    "rating": 4.2,
+    "createdAt": "2025-10-29",
+    "featured": false,
+    "description": "Adventure soundtrack for exploration and flying.",
+    "trackCount": 16,
+    "duration": {
+      "totalMinutes": 46,
+      "format": "min"
+    },
+    "samples": [
+      "Outro_01.wav",
+      "Loop_02.wav",
+      "Theme_03.wav",
+      "Stinger_04.wav",
+      "Outro_05.wav",
+      "Riser_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 36,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 103,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 552,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 80,
+    "key": "A min"
+  },
+  {
+    "id": "p1064",
+    "title": "Footsteps Variety Pack",
+    "category": "SFX",
+    "mood": "Epic",
+    "tags": [
+      "sfx",
+      "epic",
+      "horror",
+      "cozy",
+      "fantasy"
+    ],
+    "creatorId": "c003",
+    "rating": 4.9,
+    "createdAt": "2025-09-27",
+    "featured": true,
+    "description": "Footsteps on wood, tile, gravel, snow, and cloth layers.",
+    "trackCount": 36,
+    "duration": {
+      "totalSeconds": 385,
+      "format": "s"
+    },
+    "samples": [
+      "Step_01.wav",
+      "Click_02.wav",
+      "Error_03.wav",
+      "Error_04.wav",
+      "Bleep_05.wav",
+      "Error_06.wav",
+      "Hit_07.wav",
+      "Swipe_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 13,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 33,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 281,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1065",
+    "title": "Combat Swishes & Whooshes (Lite)",
+    "category": "SFX",
+    "mood": "Epic",
+    "tags": [
+      "sfx",
+      "epic",
+      "exploration",
+      "adventure",
+      "horror"
+    ],
+    "creatorId": "c002",
+    "rating": 4.3,
+    "createdAt": "2025-11-14",
+    "featured": false,
+    "description": "Swishes for melee swings, dodges, and fast movement.",
+    "trackCount": 35,
+    "duration": {
+      "totalSeconds": 262,
+      "format": "s"
+    },
+    "samples": [
+      "Confirm_01.wav",
+      "Pickup_02.wav",
+      "Step_03.wav",
+      "Bleep_04.wav",
+      "Confirm_05.wav",
+      "Whoosh_06.wav",
+      "Error_07.wav",
+      "Whoosh_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 12,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 32,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 242,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1066",
+    "title": "Adaptive Puzzle System",
+    "category": "Adaptive Music",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "dark",
+      "puzzle",
+      "cyberpunk",
+      "sci-fi"
+    ],
+    "creatorId": "c007",
+    "rating": 4.5,
+    "createdAt": "2026-02-22",
+    "featured": false,
+    "description": "Sparse layers that bloom on progress.",
+    "trackCount": 14,
+    "duration": {
+      "totalMinutes": 14,
+      "format": "min"
+    },
+    "samples": [
+      "Cue_01.wav",
+      "Intro_02.wav",
+      "Riser_03.wav",
+      "Theme_04.wav",
+      "Theme_05.wav",
+      "Stinger_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 33,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 68,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 387,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 120,
+    "key": "D min",
+    "adaptive": {
+      "stems": 5,
+      "intensityLevels": 4,
+      "transitionType": "beat",
+      "looping": "seamless",
+      "recommendedEngine": "Wwise",
+      "deliverables": [
+        "stems",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1067",
+    "title": "Adaptive Combat Layers \u2013 Sci\u2011Fi",
+    "category": "Adaptive Music",
+    "mood": "Chill",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "chill",
+      "fantasy",
+      "cozy",
+      "sci-fi"
+    ],
+    "creatorId": "c008",
+    "rating": 4.7,
+    "createdAt": "2025-08-26",
+    "featured": false,
+    "description": "Layered combat music with intensity transitions.",
+    "trackCount": 7,
+    "duration": {
+      "totalMinutes": 11,
+      "format": "min"
+    },
+    "samples": [
+      "Loop_01.wav",
+      "Loop_02.wav",
+      "Cue_03.wav",
+      "Stinger_04.wav",
+      "Intro_05.wav",
+      "Loop_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 58,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 111,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 606,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 100,
+    "key": "C dor",
+    "adaptive": {
+      "stems": 4,
+      "intensityLevels": 3,
+      "transitionType": "bar",
+      "looping": "tail",
+      "recommendedEngine": "Wwise",
+      "deliverables": [
+        "stems",
+        "full_mix",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1068",
+    "title": "Boss Fight Stingers",
+    "category": "Music",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "cyber",
+      "cozy",
+      "cyberpunk",
+      "racing"
+    ],
+    "creatorId": "c008",
+    "rating": 4.0,
+    "createdAt": "2025-11-26",
+    "featured": false,
+    "description": "Short stingers for intros, phase changes, and victories.",
+    "trackCount": 6,
+    "duration": {
+      "totalMinutes": 6,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Cue_02.wav",
+      "Layer_03.wav",
+      "Loop_04.wav",
+      "Stinger_05.wav",
+      "Outro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 15,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 49,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 279,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 120,
+    "key": "A# phr"
+  },
+  {
+    "id": "p1069",
+    "title": "Minimal Menu Tones",
+    "category": "UI",
+    "mood": "Epic",
+    "tags": [
+      "ui",
+      "epic",
+      "fantasy",
+      "racing",
+      "stealth"
+    ],
+    "creatorId": "c002",
+    "rating": 4.8,
+    "createdAt": "2025-11-08",
+    "featured": true,
+    "description": "Clean, subtle UI tones for calm interfaces.",
+    "trackCount": 29,
+    "duration": {
+      "totalSeconds": 261,
+      "format": "s"
+    },
+    "samples": [
+      "Zap_01.wav",
+      "Coin_02.wav",
+      "Step_03.wav",
+      "Bleep_04.wav",
+      "Hit_05.wav",
+      "Coin_06.wav",
+      "Click_07.wav",
+      "Coin_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 11,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 30,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 288,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1070",
+    "title": "Cozy Pixel Town OST (Expanded)",
+    "category": "Soundtrack",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "soundtrack",
+      "ost",
+      "cyber",
+      "fantasy",
+      "boss",
+      "horror"
+    ],
+    "creatorId": "c007",
+    "rating": 4.6,
+    "createdAt": "2025-08-17",
+    "featured": false,
+    "description": "Warm looping soundtrack for life-sim games.",
+    "trackCount": 26,
+    "duration": {
+      "totalMinutes": 55,
+      "format": "min"
+    },
+    "samples": [
+      "Cue_01.wav",
+      "Stinger_02.wav",
+      "Layer_03.wav",
+      "Cue_04.wav",
+      "Layer_05.wav",
+      "Cue_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 48,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 92,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 535,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 130,
+    "key": "D min"
+  },
+  {
+    "id": "p1071",
+    "title": "Subway Station Loop (Lite)",
+    "category": "Ambience",
+    "mood": "Cyber",
+    "tags": [
+      "ambience",
+      "loop",
+      "cyber",
+      "cozy",
+      "cyberpunk",
+      "fantasy"
+    ],
+    "creatorId": "c002",
+    "rating": 4.8,
+    "createdAt": "2025-08-13",
+    "featured": false,
+    "description": "Distant announcements, trains, vents, crowd murmurs.",
+    "trackCount": 10,
+    "duration": {
+      "totalMinutes": 32,
+      "format": "min"
+    },
+    "samples": [
+      "Bed_01.wav",
+      "Drone_02.wav",
+      "Crowd_03.wav",
+      "Crowd_04.wav",
+      "Cave_05.wav",
+      "Crowd_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 22,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 39,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 286,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1072",
+    "title": "Neon Drift EP",
+    "category": "EP",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "ep",
+      "cute",
+      "racing",
+      "sci-fi",
+      "adventure"
+    ],
+    "creatorId": "c007",
+    "rating": 4.2,
+    "createdAt": "2025-08-21",
+    "featured": false,
+    "description": "Five-track synthwave EP for racing and night city play.",
+    "trackCount": 6,
+    "duration": {
+      "totalMinutes": 20,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Outro_02.wav",
+      "Loop_03.wav",
+      "Intro_04.wav",
+      "Riser_05.wav",
+      "Intro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 30,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 77,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 571,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 115,
+    "key": "F maj"
+  },
+  {
+    "id": "p1073",
+    "title": "Adaptive Combat Layers \u2013 Sci\u2011Fi",
+    "category": "Adaptive Music",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "cute",
+      "sci-fi",
+      "fantasy",
+      "stealth"
+    ],
+    "creatorId": "c002",
+    "rating": 4.7,
+    "createdAt": "2025-09-06",
+    "featured": false,
+    "description": "Layered combat music with intensity transitions.",
+    "trackCount": 18,
+    "duration": {
+      "totalMinutes": 17,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Cue_02.wav",
+      "Loop_03.wav",
+      "Theme_04.wav",
+      "Layer_05.wav",
+      "Riser_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 51,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 100,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 570,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 140,
+    "key": "D maj",
+    "adaptive": {
+      "stems": 5,
+      "intensityLevels": 3,
+      "transitionType": "marker",
+      "looping": "tail",
+      "recommendedEngine": "Unity",
+      "deliverables": [
+        "stems",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1074",
+    "title": "Puzzle Win Jingles",
+    "category": "Music",
+    "mood": "Chill",
+    "tags": [
+      "music",
+      "chill",
+      "fantasy",
+      "boss",
+      "cyberpunk"
+    ],
+    "creatorId": "c005",
+    "rating": 4.4,
+    "createdAt": "2025-12-06",
+    "featured": false,
+    "description": "Short positive cues for puzzle success.",
+    "trackCount": 9,
+    "duration": {
+      "totalMinutes": 4,
+      "format": "min"
+    },
+    "samples": [
+      "Theme_01.wav",
+      "Stinger_02.wav",
+      "Stinger_03.wav",
+      "Intro_04.wav",
+      "Layer_05.wav",
+      "Stinger_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 30,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 51,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 222,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 90,
+    "key": "B min"
+  },
+  {
+    "id": "p1075",
+    "title": "Combat Swishes & Whooshes",
+    "category": "SFX",
+    "mood": "Chill",
+    "tags": [
+      "sfx",
+      "chill",
+      "puzzle",
+      "racing",
+      "boss"
+    ],
+    "creatorId": "c004",
+    "rating": 4.0,
+    "createdAt": "2026-01-29",
+    "featured": false,
+    "description": "Swishes for melee swings, dodges, and fast movement.",
+    "trackCount": 39,
+    "duration": {
+      "totalSeconds": 438,
+      "format": "s"
+    },
+    "samples": [
+      "Step_01.wav",
+      "Pop_02.wav",
+      "Bleep_03.wav",
+      "Bleep_04.wav",
+      "Bleep_05.wav",
+      "Swipe_06.wav",
+      "Pop_07.wav",
+      "Coin_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 16,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 27,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 148,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1076",
+    "title": "Adaptive Stealth System (Expanded)",
+    "category": "Adaptive Music",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "dark",
+      "adventure",
+      "fantasy",
+      "puzzle"
+    ],
+    "creatorId": "c005",
+    "rating": 4.2,
+    "createdAt": "2025-08-17",
+    "featured": false,
+    "description": "Low pulses + tension rises based on detection.",
+    "trackCount": 18,
+    "duration": {
+      "totalMinutes": 14,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Outro_02.wav",
+      "Outro_03.wav",
+      "Theme_04.wav",
+      "Loop_05.wav",
+      "Riser_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 32,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 85,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 503,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 100,
+    "key": "A maj",
+    "adaptive": {
+      "stems": 6,
+      "intensityLevels": 5,
+      "transitionType": "bar",
+      "looping": "crossfade",
+      "recommendedEngine": "Wwise",
+      "deliverables": [
+        "stems",
+        "full_mix",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1077",
+    "title": "Dungeon Drips & Drones (Vol. 2)",
+    "category": "Ambience",
+    "mood": "Chill",
+    "tags": [
+      "ambience",
+      "loop",
+      "chill",
+      "horror",
+      "fantasy",
+      "cozy"
+    ],
+    "creatorId": "c001",
+    "rating": 4.7,
+    "createdAt": "2025-10-12",
+    "featured": false,
+    "description": "Low drones and dripping ambience for dark spaces.",
+    "trackCount": 6,
+    "duration": {
+      "totalMinutes": 24,
+      "format": "min"
+    },
+    "samples": [
+      "Forest_01.wav",
+      "Roomtone_02.wav",
+      "Wind_03.wav",
+      "Roomtone_04.wav",
+      "Forest_05.wav",
+      "Bed_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 28,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 60,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 223,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1078",
+    "title": "Cozy Pixel Town OST",
+    "category": "Soundtrack",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "soundtrack",
+      "ost",
+      "cyber",
+      "menu",
+      "adventure",
+      "fantasy"
+    ],
+    "creatorId": "c005",
+    "rating": 4.6,
+    "createdAt": "2025-10-07",
+    "featured": false,
+    "description": "Warm looping soundtrack for life-sim games.",
+    "trackCount": 13,
+    "duration": {
+      "totalMinutes": 26,
+      "format": "min"
+    },
+    "samples": [
+      "Outro_01.wav",
+      "Cue_02.wav",
+      "Intro_03.wav",
+      "Stinger_04.wav",
+      "Stinger_05.wav",
+      "Intro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 43,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 111,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 498,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 80,
+    "key": "C phr"
+  },
+  {
+    "id": "p1079",
+    "title": "Arcade UI Blips",
+    "category": "UI",
+    "mood": "Chill",
+    "tags": [
+      "ui",
+      "chill",
+      "puzzle",
+      "exploration",
+      "cozy"
+    ],
+    "creatorId": "c001",
+    "rating": 4.2,
+    "createdAt": "2026-01-31",
+    "featured": false,
+    "description": "Crunchy arcade bleeps, score ticks, and countdowns.",
+    "trackCount": 22,
+    "duration": {
+      "totalSeconds": 257,
+      "format": "s"
+    },
+    "samples": [
+      "Coin_01.wav",
+      "Zap_02.wav",
+      "Pop_03.wav",
+      "Coin_04.wav",
+      "Error_05.wav",
+      "Error_06.wav",
+      "Click_07.wav",
+      "Coin_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 11,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 26,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 147,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1080",
+    "title": "Minimal Menu Tones (Pack B)",
+    "category": "UI",
+    "mood": "Dark",
+    "tags": [
+      "ui",
+      "dark",
+      "adventure",
+      "sci-fi",
+      "cozy"
+    ],
+    "creatorId": "c002",
+    "rating": 4.6,
+    "createdAt": "2025-12-26",
+    "featured": false,
+    "description": "Clean, subtle UI tones for calm interfaces.",
+    "trackCount": 39,
+    "duration": {
+      "totalSeconds": 397,
+      "format": "s"
+    },
+    "samples": [
+      "Pop_01.wav",
+      "Confirm_02.wav",
+      "Error_03.wav",
+      "Confirm_04.wav",
+      "Confirm_05.wav",
+      "Step_06.wav",
+      "Confirm_07.wav",
+      "Hit_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 9,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 23,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 242,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1081",
+    "title": "Puzzle Win Jingles",
+    "category": "Music",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "dark",
+      "rpg",
+      "cyberpunk",
+      "puzzle"
+    ],
+    "creatorId": "c005",
+    "rating": 4.3,
+    "createdAt": "2025-08-28",
+    "featured": false,
+    "description": "Short positive cues for puzzle success.",
+    "trackCount": 15,
+    "duration": {
+      "totalMinutes": 10,
+      "format": "min"
+    },
+    "samples": [
+      "Riser_01.wav",
+      "Outro_02.wav",
+      "Riser_03.wav",
+      "Cue_04.wav",
+      "Outro_05.wav",
+      "Cue_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 33,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 65,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 254,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 110,
+    "key": "G# maj"
+  },
+  {
+    "id": "p1082",
+    "title": "Haunted Hallway Tones",
+    "category": "Ambience",
+    "mood": "Cute",
+    "tags": [
+      "ambience",
+      "loop",
+      "cute",
+      "exploration",
+      "stealth",
+      "cyberpunk"
+    ],
+    "creatorId": "c001",
+    "rating": 4.5,
+    "createdAt": "2026-01-22",
+    "featured": true,
+    "description": "Creaks and distant knocks for suspense.",
+    "trackCount": 10,
+    "duration": {
+      "totalMinutes": 27,
+      "format": "min"
+    },
+    "samples": [
+      "Bed_01.wav",
+      "Crowd_02.wav",
+      "Drone_03.wav",
+      "Drone_04.wav",
+      "Forest_05.wav",
+      "Drone_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 16,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 34,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 308,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1083",
+    "title": "Boss Fight Stingers (Lite)",
+    "category": "Music",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "cyber",
+      "fantasy",
+      "puzzle",
+      "stealth"
+    ],
+    "creatorId": "c002",
+    "rating": 4.8,
+    "createdAt": "2025-10-23",
+    "featured": false,
+    "description": "Short stingers for intros, phase changes, and victories.",
+    "trackCount": 13,
+    "duration": {
+      "totalMinutes": 5,
+      "format": "min"
+    },
+    "samples": [
+      "Outro_01.wav",
+      "Stinger_02.wav",
+      "Riser_03.wav",
+      "Intro_04.wav",
+      "Stinger_05.wav",
+      "Intro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 15,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 41,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 265,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 130,
+    "key": "G# min"
+  },
+  {
+    "id": "p1084",
+    "title": "Echoes of the Overworld (OST Vol. 1)",
+    "category": "Soundtrack",
+    "mood": "Epic",
+    "tags": [
+      "music",
+      "soundtrack",
+      "ost",
+      "epic",
+      "cyberpunk",
+      "boss",
+      "adventure"
+    ],
+    "creatorId": "c007",
+    "rating": 4.5,
+    "createdAt": "2025-12-13",
+    "featured": false,
+    "description": "Full overworld soundtrack with evolving themes.",
+    "trackCount": 19,
+    "duration": {
+      "totalMinutes": 28,
+      "format": "min"
+    },
+    "samples": [
+      "Outro_01.wav",
+      "Loop_02.wav",
+      "Layer_03.wav",
+      "Cue_04.wav",
+      "Theme_05.wav",
+      "Layer_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 29,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 82,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 422,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 120,
+    "key": "G min"
+  },
+  {
+    "id": "p1085",
+    "title": "Forest Morning Bed",
+    "category": "Ambience",
+    "mood": "Epic",
+    "tags": [
+      "ambience",
+      "loop",
+      "epic",
+      "exploration",
+      "adventure",
+      "puzzle"
+    ],
+    "creatorId": "c006",
+    "rating": 4.6,
+    "createdAt": "2026-02-05",
+    "featured": false,
+    "description": "Birdsong and gentle wind for forest scenes.",
+    "trackCount": 10,
+    "duration": {
+      "totalMinutes": 35,
+      "format": "min"
+    },
+    "samples": [
+      "Forest_01.wav",
+      "Rain_02.wav",
+      "Forest_03.wav",
+      "Drone_04.wav",
+      "Cave_05.wav",
+      "Forest_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 24,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 46,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 210,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1086",
+    "title": "Puzzle Win Jingles",
+    "category": "Music",
+    "mood": "Cyber",
+    "tags": [
+      "music",
+      "cyber",
+      "exploration",
+      "menu",
+      "boss"
+    ],
+    "creatorId": "c007",
+    "rating": 4.2,
+    "createdAt": "2025-10-03",
+    "featured": false,
+    "description": "Short positive cues for puzzle success.",
+    "trackCount": 16,
+    "duration": {
+      "totalMinutes": 7,
+      "format": "min"
+    },
+    "samples": [
+      "Stinger_01.wav",
+      "Stinger_02.wav",
+      "Layer_03.wav",
+      "Intro_04.wav",
+      "Riser_05.wav",
+      "Intro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 26,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 58,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 437,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 130,
+    "key": "G min"
+  },
+  {
+    "id": "p1087",
+    "title": "Adaptive Combat Layers \u2013 Sci\u2011Fi",
+    "category": "Adaptive Music",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "cute",
+      "stealth",
+      "sci-fi",
+      "menu"
+    ],
+    "creatorId": "c007",
+    "rating": 4.9,
+    "createdAt": "2025-10-13",
+    "featured": true,
+    "description": "Layered combat music with intensity transitions.",
+    "trackCount": 11,
+    "duration": {
+      "totalMinutes": 18,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Stinger_02.wav",
+      "Intro_03.wav",
+      "Layer_04.wav",
+      "Layer_05.wav",
+      "Stinger_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 63,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 132,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 451,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 100,
+    "key": "E maj",
+    "adaptive": {
+      "stems": 4,
+      "intensityLevels": 3,
+      "transitionType": "marker",
+      "looping": "crossfade",
+      "recommendedEngine": "Wwise",
+      "deliverables": [
+        "stems",
+        "full_mix",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1088",
+    "title": "Combat Swishes & Whooshes (Pack B)",
+    "category": "SFX",
+    "mood": "Cyber",
+    "tags": [
+      "sfx",
+      "cyber",
+      "fantasy",
+      "menu",
+      "puzzle"
+    ],
+    "creatorId": "c002",
+    "rating": 4.9,
+    "createdAt": "2025-12-19",
+    "featured": true,
+    "description": "Swishes for melee swings, dodges, and fast movement.",
+    "trackCount": 15,
+    "duration": {
+      "totalSeconds": 125,
+      "format": "s"
+    },
+    "samples": [
+      "Swipe_01.wav",
+      "Confirm_02.wav",
+      "Confirm_03.wav",
+      "Swipe_04.wav",
+      "Whoosh_05.wav",
+      "Step_06.wav",
+      "Coin_07.wav",
+      "Step_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 18,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 26,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 138,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1089",
+    "title": "Cozy Pixel Town OST",
+    "category": "Soundtrack",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "soundtrack",
+      "ost",
+      "dark",
+      "horror",
+      "rpg",
+      "sci-fi"
+    ],
+    "creatorId": "c002",
+    "rating": 4.2,
+    "createdAt": "2025-08-03",
+    "featured": false,
+    "description": "Warm looping soundtrack for life-sim games.",
+    "trackCount": 27,
+    "duration": {
+      "totalMinutes": 36,
+      "format": "min"
+    },
+    "samples": [
+      "Riser_01.wav",
+      "Stinger_02.wav",
+      "Intro_03.wav",
+      "Intro_04.wav",
+      "Loop_05.wav",
+      "Intro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 45,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 82,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 319,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 130,
+    "key": "E maj"
+  },
+  {
+    "id": "p1090",
+    "title": "Subway Station Loop",
+    "category": "Ambience",
+    "mood": "Epic",
+    "tags": [
+      "ambience",
+      "loop",
+      "epic",
+      "rpg",
+      "menu",
+      "fantasy"
+    ],
+    "creatorId": "c006",
+    "rating": 4.6,
+    "createdAt": "2025-12-24",
+    "featured": false,
+    "description": "Distant announcements, trains, vents, crowd murmurs.",
+    "trackCount": 10,
+    "duration": {
+      "totalMinutes": 17,
+      "format": "min"
+    },
+    "samples": [
+      "Crowd_01.wav",
+      "Crowd_02.wav",
+      "Forest_03.wav",
+      "Drone_04.wav",
+      "Bed_05.wav",
+      "Crowd_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 15,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 32,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 187,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1091",
+    "title": "Trailer Braams Mini",
+    "category": "Music",
+    "mood": "Dark",
+    "tags": [
+      "music",
+      "dark",
+      "puzzle",
+      "cyberpunk",
+      "fantasy"
+    ],
+    "creatorId": "c002",
+    "rating": 4.6,
+    "createdAt": "2025-10-06",
+    "featured": false,
+    "description": "Short cinematic braams and impact hits.",
+    "trackCount": 10,
+    "duration": {
+      "totalMinutes": 12,
+      "format": "min"
+    },
+    "samples": [
+      "Cue_01.wav",
+      "Theme_02.wav",
+      "Intro_03.wav",
+      "Stinger_04.wav",
+      "Loop_05.wav",
+      "Outro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 31,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 75,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 444,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 140,
+    "key": "A maj"
+  },
+  {
+    "id": "p1092",
+    "title": "Adaptive Boss System",
+    "category": "Adaptive Music",
+    "mood": "Cute",
+    "tags": [
+      "music",
+      "adaptive",
+      "stems",
+      "cute",
+      "cozy",
+      "exploration",
+      "horror"
+    ],
+    "creatorId": "c002",
+    "rating": 4.3,
+    "createdAt": "2025-11-04",
+    "featured": false,
+    "description": "Stems for boss phases with punch-in stingers.",
+    "trackCount": 13,
+    "duration": {
+      "totalMinutes": 8,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Layer_02.wav",
+      "Layer_03.wav",
+      "Theme_04.wav",
+      "Intro_05.wav",
+      "Riser_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 32,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 93,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 330,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 120,
+    "key": "B phr",
+    "adaptive": {
+      "stems": 5,
+      "intensityLevels": 3,
+      "transitionType": "marker",
+      "looping": "crossfade",
+      "recommendedEngine": "Wwise",
+      "deliverables": [
+        "stems",
+        "full_mix",
+        "markers"
+      ]
+    }
+  },
+  {
+    "id": "p1093",
+    "title": "Rainy Window Loops",
+    "category": "Ambience",
+    "mood": "Cyber",
+    "tags": [
+      "ambience",
+      "loop",
+      "cyber",
+      "menu",
+      "adventure",
+      "puzzle"
+    ],
+    "creatorId": "c002",
+    "rating": 4.7,
+    "createdAt": "2025-11-23",
+    "featured": false,
+    "description": "Cozy rain-on-window ambience loops.",
+    "trackCount": 4,
+    "duration": {
+      "totalMinutes": 24,
+      "format": "min"
+    },
+    "samples": [
+      "Forest_01.wav",
+      "Crowd_02.wav",
+      "Cave_03.wav",
+      "Loop_04.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 26,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 59,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 257,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1094",
+    "title": "Neon Drift EP",
+    "category": "EP",
+    "mood": "Epic",
+    "tags": [
+      "music",
+      "ep",
+      "epic",
+      "adventure",
+      "racing",
+      "rpg"
+    ],
+    "creatorId": "c007",
+    "rating": 4.8,
+    "createdAt": "2025-08-16",
+    "featured": true,
+    "description": "Five-track synthwave EP for racing and night city play.",
+    "trackCount": 8,
+    "duration": {
+      "totalMinutes": 17,
+      "format": "min"
+    },
+    "samples": [
+      "Intro_01.wav",
+      "Cue_02.wav",
+      "Stinger_03.wav",
+      "Outro_04.wav",
+      "Loop_05.wav",
+      "Loop_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 54,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 102,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 477,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 145,
+    "key": "C# phr"
+  },
+  {
+    "id": "p1095",
+    "title": "Boss Fight Stingers",
+    "category": "Music",
+    "mood": "Epic",
+    "tags": [
+      "music",
+      "epic",
+      "boss",
+      "stealth",
+      "horror"
+    ],
+    "creatorId": "c008",
+    "rating": 4.4,
+    "createdAt": "2025-11-09",
+    "featured": false,
+    "description": "Short stingers for intros, phase changes, and victories.",
+    "trackCount": 16,
+    "duration": {
+      "totalMinutes": 8,
+      "format": "min"
+    },
+    "samples": [
+      "Layer_01.wav",
+      "Cue_02.wav",
+      "Cue_03.wav",
+      "Stinger_04.wav",
+      "Intro_05.wav",
+      "Outro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 32,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 59,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 409,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 90,
+    "key": "D phr"
+  },
+  {
+    "id": "p1096",
+    "title": "Arcade UI Blips (Lite)",
+    "category": "UI",
+    "mood": "Epic",
+    "tags": [
+      "ui",
+      "epic",
+      "exploration",
+      "racing",
+      "rpg"
+    ],
+    "creatorId": "c003",
+    "rating": 4.1,
+    "createdAt": "2025-10-01",
+    "featured": true,
+    "description": "Crunchy arcade bleeps, score ticks, and countdowns.",
+    "trackCount": 37,
+    "duration": {
+      "totalSeconds": 263,
+      "format": "s"
+    },
+    "samples": [
+      "Hit_01.wav",
+      "Confirm_02.wav",
+      "Pickup_03.wav",
+      "Swipe_04.wav",
+      "Bleep_05.wav",
+      "Hit_06.wav",
+      "Whoosh_07.wav",
+      "Bleep_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 8,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 22,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 224,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1097",
+    "title": "Arcade UI Blips",
+    "category": "UI",
+    "mood": "Dark",
+    "tags": [
+      "ui",
+      "dark",
+      "cyberpunk",
+      "cozy",
+      "adventure"
+    ],
+    "creatorId": "c001",
+    "rating": 4.8,
+    "createdAt": "2025-10-17",
+    "featured": false,
+    "description": "Crunchy arcade bleeps, score ticks, and countdowns.",
+    "trackCount": 22,
+    "duration": {
+      "totalSeconds": 259,
+      "format": "s"
+    },
+    "samples": [
+      "Error_01.wav",
+      "Whoosh_02.wav",
+      "Zap_03.wav",
+      "Step_04.wav",
+      "Step_05.wav",
+      "Hit_06.wav",
+      "Error_07.wav",
+      "Pickup_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 10,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 28,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 227,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1098",
+    "title": "Stealth Pulse Loops",
+    "category": "Music",
+    "mood": "Chill",
+    "tags": [
+      "music",
+      "chill",
+      "fantasy",
+      "menu",
+      "sci-fi"
+    ],
+    "creatorId": "c007",
+    "rating": 4.4,
+    "createdAt": "2026-02-10",
+    "featured": false,
+    "description": "Low tension loops for stealth gameplay.",
+    "trackCount": 12,
+    "duration": {
+      "totalMinutes": 5,
+      "format": "min"
+    },
+    "samples": [
+      "Layer_01.wav",
+      "Stinger_02.wav",
+      "Loop_03.wav",
+      "Intro_04.wav",
+      "Cue_05.wav",
+      "Outro_06.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 28,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 60,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 335,
+        "creatorSplit": 0.9
+      }
+    },
+    "bpm": 110,
+    "key": "F# min"
+  },
+  {
+    "id": "p1099",
+    "title": "Combat Swishes & Whooshes (Vol. 1)",
+    "category": "SFX",
+    "mood": "Dark",
+    "tags": [
+      "sfx",
+      "dark",
+      "puzzle",
+      "fantasy",
+      "racing"
+    ],
+    "creatorId": "c003",
+    "rating": 4.3,
+    "createdAt": "2025-10-08",
+    "featured": false,
+    "description": "Swishes for melee swings, dodges, and fast movement.",
+    "trackCount": 29,
+    "duration": {
+      "totalSeconds": 180,
+      "format": "s"
+    },
+    "samples": [
+      "Hit_01.wav",
+      "Click_02.wav",
+      "Whoosh_03.wav",
+      "Pickup_04.wav",
+      "Bleep_05.wav",
+      "Swipe_06.wav",
+      "Error_07.wav",
+      "Whoosh_08.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 15,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 26,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 201,
+        "creatorSplit": 0.9
+      }
+    }
+  },
+  {
+    "id": "p1100",
+    "title": "Forest Morning Bed",
+    "category": "Ambience",
+    "mood": "Chill",
+    "tags": [
+      "ambience",
+      "loop",
+      "chill",
+      "racing",
+      "menu",
+      "puzzle"
+    ],
+    "creatorId": "c001",
+    "rating": 4.6,
+    "createdAt": "2026-01-02",
+    "featured": false,
+    "description": "Birdsong and gentle wind for forest scenes.",
+    "trackCount": 5,
+    "duration": {
+      "totalMinutes": 30,
+      "format": "min"
+    },
+    "samples": [
+      "Rain_01.wav",
+      "Forest_02.wav",
+      "Drone_03.wav",
+      "Roomtone_04.wav",
+      "Crowd_05.wav"
+    ],
+    "licenses": {
+      "Indie": {
+        "price": 26,
+        "creatorSplit": 0.85
+      },
+      "Studio": {
+        "price": 55,
+        "creatorSplit": 0.8
+      },
+      "Exclusive": {
+        "price": 341,
+        "creatorSplit": 0.9
+      }
+    }
+  }
+]

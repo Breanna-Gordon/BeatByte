@@ -1,0 +1,201 @@
+/* Stories Grid */
+.stories-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+  }
+  
+  .story-card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .story-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  /* Overlay */
+  .story-overlay {
+    position: absolute;
+    inset: 0;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(
+      to top,
+      rgba(0,0,0,0.7),
+      rgba(0,0,0,0.2),
+      transparent
+    );
+    color: #ffffff;
+  }
+  
+  .story-overlay h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+  
+  .story-overlay p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+  }
+  
+  /* Hover effect (subtle, Steinberg-style) */
+  .story-card:hover img {
+    transform: scale(1.03);
+    transition: transform 0.4s ease;
+  }
+
+/* Stories Page Header */
+.page-header {
+  padding: 120px 24px 80px;
+}
+
+.page-header-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.page-intro {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Story Hero Image */
+.story-hero {
+  margin-top: 70px;
+  height: 600px;
+  overflow: hidden;
+  background: #000000;
+}
+
+.story-hero img {
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Story Header (Individual Story) */
+.story-header {
+  padding: 80px 24px 60px;
+}
+
+.story-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+}
+
+/* Page Sections */
+.page-section {
+  padding: 80px 24px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.page-section.alt {
+  background: #f5f5f5;
+}
+
+.section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.page-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: -0.8px;
+  color: #000000;
+}
+
+.page-section p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #333333;
+  margin-bottom: 16px;
+}
+
+/* Story Content Split Layout */
+.story-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.story-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.story-image {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background: #e5e5e5;
+}
+
+.story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Story Quote Section */
+.story-quote {
+  padding: 100px 24px;
+  background: #000000;
+  color: #ffffff;
+}
+
+.story-quote blockquote {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: -0.8px;
+  color: #ffffff;
+}
+
+.story-quote blockquote::before {
+  content: '"';
+  font-size: 3rem;
+  opacity: 0.3;
+  display: block;
+  margin-bottom: -20px;
+}
+
+/* Single Column Story Layout (when no image) */
+.story-content .section-inner > p {
+  max-width: 720px;
+  margin-left: 0;
+}
+
+

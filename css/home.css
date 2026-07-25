@@ -1,0 +1,312 @@
+/* Image Collage Hero */
+.hero-collage {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    background: var(--dark);
+}
+
+.collage-image {
+    background: var(--gray-light);
+    position: relative;
+    overflow: hidden;
+    height: 420px;
+}
+
+.collage-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1);    
+}
+
+/* Collage Layout */
+.collage-image:nth-child(1) {
+    grid-column: 1 / 3;
+}
+
+.collage-image:nth-child(2) {
+    grid-column: 3 / 4;
+}
+
+.collage-image:nth-child(3) {
+    grid-column: 4 / 5;
+}
+
+/* Text block */
+
+.home-intro {
+    padding: 120px 24px;
+    padding-top: 80px;
+    background: #ffffff;
+  }
+  
+  .home-intro-inner {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  
+  .home-intro h1 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    color: #111;
+  }
+  
+  .intro-lead {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .intro-body {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #555;
+  }
+
+  /* link button */
+
+  .home-audience {
+    padding: 100px 24px;
+    background: #f7f7f7;
+  }
+  
+  .audience-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+  
+  .audience-block h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #111;
+  }
+  
+  .audience-block p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 16px;
+  }
+  
+  .audience-link {
+    font-size: 0.95rem;
+    color: #111;
+    text-decoration: none;
+  }
+  
+  .audience-link:hover {
+    text-decoration: underline;
+  }
+
+  /* latest button */
+
+  .home-latest {
+    padding: 120px 24px;
+    background: #ffffff;
+  }
+  
+  .latest-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+  }
+  
+  .latest-content h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #111;
+  }
+  
+  .latest-lead {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #222;
+  }
+  
+  .latest-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 16px;
+  }
+  
+  .latest-link {
+    font-size: 0.95rem;
+    color: #111;
+    text-decoration: none;
+  }
+  
+  .latest-link:hover {
+    text-decoration: underline;
+  }
+  
+  .latest-visual img {
+    width: 70%;
+    height: auto;
+    display: block;
+  }
+
+  /* References Page */
+.references-section {
+  padding: 120px 24px;
+  background: #ffffff;
+}
+
+.references-section h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111;
+  text-align: center;
+}
+
+.references-section .muted {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 60px auto;
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Reference List Layout */
+.reference-list-wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.reference-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reference-list li {
+  margin-bottom: 22px;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  color: #222;
+}
+
+.reference-list strong {
+  font-weight: 600;
+}
+
+.reference-list em {
+  font-style: italic;
+}
+
+/* Links */
+.reference-list a {
+  color: #111;
+  text-decoration: underline;
+}
+
+.reference-list a:hover {
+  opacity: 0.7;
+}
+
+
+
+/* Acknowledgement section */
+.acknowledgement-section {
+  padding: 120px 24px;
+  background: #ffffff;
+  text-align: left;
+}
+
+
+.acknowledgement-section * {
+  text-align: left;
+}
+
+/* Headings */
+.acknowledgement-section h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+/* Intro / muted text */
+.acknowledgement-section .muted {
+  max-width: 700px;
+  margin: 0 0 60px 0; 
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Acknowledgement List Layout */
+.acknowledgement-list-wrapper {
+  max-width: 850px;
+  margin: 0; /* left aligned block */
+}
+
+.acknowledgement-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.acknowledgement-list li {
+  margin-bottom: 22px;
+  line-height: 1.7;
+  font-size: 0.95rem;
+  color: #222;
+}
+
+.acknowledgement-list strong {
+  font-weight: 600;
+}
+
+.acknowledgement-list em {
+  font-style: italic;
+}
+
+/* Links */
+.acknowledgement-list a {
+  color: #111;
+  text-decoration: underline;
+}
+
+.acknowledgement-list a:hover {
+  opacity: 0.7;
+}
+
+.cart-badge{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:20px;
+  height:20px;
+  padding:0 6px;
+  border-radius:999px;
+  font-size:12px;
+  margin-left:6px;
+  background:#111;
+  color:#fff;
+}
+
+
+.nav-right{ display:flex; align-items:center; }
+.cart-link{
+  font-weight:500;
+  padding:8px 14px;
+  border-radius:999px;
+  border:1px solid rgba(0,0,0,.15);
+}
+.cart-link:hover{ background:rgba(0,0,0,.04); }

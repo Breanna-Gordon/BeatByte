@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BeatByte Marketplace</title>
+  <link rel="stylesheet" href="../css/style.css" />
+   <link rel="stylesheet" href="../css/marketplaceDemo.css" />
+</head>
+<body>
+  <!-- Navigation -->
+<nav>
+ <div class="nav-inner">
+  <div class="nav-left">
+    <span class="nav-logo">BeatByte</span>
+
+    <div class="nav-links">
+      <a href="home.html" class="nav-item">Home</a>
+      <a href="about.html" class="nav-item">About</a>
+
+      <div class="nav-dropdown">
+        <button class="nav-item dropdown-toggle">
+          Services <span class="arrow">▾</span>
+        </button>
+        <div class="dropdown-menu">
+          <a href="marketplacedemo.html">Marketplace</a>
+          <a href="creatortools.html">Creator Tools</a>
+          <a href="integrations.html">Engine integrations</a>
+        </div>
+      </div>
+
+      <a href="team.html" class="nav-item">Team</a>
+      <a href="stories.html" class="nav-item">Stories</a>
+      <a href="authors.html" class="nav-item">Authors</a>
+      <a href="references.html" class="nav-item">References</a>
+    </div>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="nav-right">
+    <a href="cart.html" class="nav-item cart-link">
+      Cart <span id="cartCount" class="cart-badge">0</span>
+    </a>
+  </div>
+</div>
+
+</nav>
+
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Marketplace</h1>
+        <p class="muted">
+          Legally clear audio packs for indie games. Transparent pricing, visible revenue split and fair licences.
+        </p>
+      </div>
+
+      <div class="hero-actions" role="search" aria-label="Search marketplace">
+        <label class="sr-only" for="q">Search</label>
+        <input id="q" class="input" type="search" placeholder="Search packs, tags, creators…" />
+      </div>
+    </section>
+
+    <section class="panel" aria-label="Filters">
+      <div class="filters">
+        <div class="field">
+          <label for="category">Category</label>
+          <select id="category" class="input">
+            <option value="all">All</option>
+            <option value="SFX">SFX</option>
+            <option value="Music">Music</option>
+            <option value="Ambience">Ambience</option>
+            <option value="UI">UI</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="mood">Mood</label>
+          <select id="mood" class="input">
+            <option value="all">All</option>
+            <option value="Chill">Chill</option>
+            <option value="Dark">Dark</option>
+            <option value="Cute">Cute</option>
+            <option value="Epic">Epic</option>
+            <option value="Cyber">Cyber</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="license">Licence</label>
+          <select id="license" class="input">
+            <option value="all">All</option>
+            <option value="Indie">Indie</option>
+            <option value="Studio">Studio</option>
+            <option value="Exclusive">Exclusive</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="price">Max price (£)</label>
+          
+          <input id="price" class="input" type="number" min="0" step="1" placeholder="No limit" />
+        </div>
+
+        <div class="field">
+          <label for="sort">Sort</label>
+          <select id="sort" class="input">
+            <option value="featured">Featured</option>
+            <option value="priceAsc">Price (low → high)</option>
+            <option value="priceDesc">Price (high → low)</option>
+            <option value="ratingDesc">Rating</option>
+            <option value="newest">Newest</option>
+          </select>
+        </div>
+
+        <button id="clearFilters" class="btn secondary" type="button">Clear</button>
+      </div>
+
+      <div class="chips" id="activeChips" aria-live="polite"></div>
+    </section>
+
+    <section aria-label="Marketplace results">
+      <div class="results-bar">
+        <p class="muted">
+          <span id="resultsCount">0</span> packs
+          <span class="muted">•</span>
+          <span class="muted">Page <span id="pageNow">1</span>/<span id="pageTotal">1</span></span>
+        </p>
+
+        <div class="toggle">
+          <label class="check">
+            <input id="onlyAffordable" type="checkbox" />
+            <span>Show “General” only</span>
+          </label>
+        </div>
+      </div>
+
+      <div id="grid" class="grid" role="list"></div>
+
+      <!-- Pagination controls -->
+      <div class="panel" id="pager" aria-label="Pagination" style="display:flex;justify-content:space-between;align-items:center;gap:12px;">
+        <button class="btn secondary" id="prevPage" type="button">← Prev</button>
+        <div class="muted small" id="pageInfo">Page 1 of 1</div>
+        <button class="btn secondary" id="nextPage" type="button">Next →</button>
+      </div>
+    </section>
+
+    <section class="panel info">
+      <h2>How BeatByte stays fair</h2>
+      <ul>
+        <li><strong>Transparent split:</strong> every pack shows the creator cut vs platform fee</li>
+        <li><strong>Clear licences:</strong> Indie, Studio or Exclusive options (no vague terms)</li>
+        <li><strong>Accessible:</strong> keyboard-friendly UI, readable contrast and simple checkout</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="muted">Demo marketplace for BeatByte (static prototype).</p>
+  </footer>
+
+  <script src="../js/marketplace.js"></script>
+</body>
+</html>

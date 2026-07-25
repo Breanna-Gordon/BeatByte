@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BeatByte Cart</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/marketplaceDemo.css" />
+  <style>
+    .cart-grid{ display:grid; grid-template-columns: 1.35fr .65fr; gap:16px; }
+    @media (max-width: 900px){ .cart-grid{ grid-template-columns: 1fr; } }
+    .cart-item{ display:flex; gap:12px; justify-content:space-between; align-items:flex-start; border-top:1px solid rgba(0,0,0,.08); padding-top:12px; margin-top:12px; }
+    .cart-left{ min-width:0; }
+    .cart-title{ margin:0; }
+    .qty{ display:flex; gap:8px; align-items:center; }
+    .qty button{ width:32px; height:32px; border-radius:10px; }
+    .totals{ display:grid; gap:10px; }
+    .row{ display:flex; justify-content:space-between; gap:12px; }
+    .danger{ color:#b00020; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-left">
+      <span class="nav-logo">BeatByte</span>
+
+      <div class="nav-links">
+        <a href="home.html" class="nav-item">Home</a>
+        <a href="about.html" class="nav-item">About</a>
+
+        <div class="nav-dropdown">
+          <button class="nav-item dropdown-toggle">
+            Services <span class="arrow">▾</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="marketplacedemo.html">Marketplace</a>
+            <a href="creatortools.html">Creator Tools</a>
+            <a href="integrations.html">Engine integrations</a>
+          </div>
+        </div>
+
+        <a href="team.html" class="nav-item">Team</a>
+        <a href="stories.html" class="nav-item">Stories</a>
+        <a href="authors.html" class="nav-item">Authors</a>
+        <a href="references.html" class="nav-item">References</a>
+
+        <a href="cart.html" class="nav-item">
+          Cart <span id="cartCount" class="cart-badge">0</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="container">
+  <section class="hero">
+    <div>
+      <h1>Your cart</h1>
+      <p class="muted">This is a demo checkout (no payments).</p>
+    </div>
+    <div class="hero-actions">
+      <a class="btn secondary" href="marketplacedemo.html">← Continue browsing</a>
+      <button id="clearCart" class="btn secondary" type="button">Clear cart</button>
+    </div>
+  </section>
+
+  <div class="cart-grid">
+    <section class="panel">
+      <h2>Items</h2>
+      <div id="cartItems" class="muted">Loading…</div>
+    </section>
+
+    <aside class="panel">
+      <h2>Summary</h2>
+      <div class="totals">
+        <div class="row"><span class="muted">Subtotal</span><strong id="subTotal">£0</strong></div>
+        <div class="row"><span class="muted">Platform fee (demo)</span><strong id="platformFee">£0</strong></div>
+        <div class="row"><span class="muted">Creator earnings (demo)</span><strong id="creatorTotal">£0</strong></div>
+        <hr />
+        <div class="row"><span>Total</span><strong id="grandTotal">£0</strong></div>
+      </div>
+
+      <button id="checkout" class="btn" type="button" style="width:100%; margin-top:12px;">
+        Checkout (demo)
+      </button>
+
+      <p class="muted small" style="margin-top:10px;">
+        Tip: quantities persist using <code>localStorage</code> (<code>bb_cart</code>).
+      </p>
+    </aside>
+  </div>
+</main>
+
+<footer class="footer">
+  <p class="muted">Demo marketplace for BeatByte (static prototype).</p>
+</footer>
+
+<script src="../js/cart.js"></script>
+</body>
+</html>

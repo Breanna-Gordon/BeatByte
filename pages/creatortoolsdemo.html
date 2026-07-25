@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creator Tools — Studio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg-light: #f5f7fa; --bg-panel: #ffffff; --bg-elevated: #fafbfc;
+            --border: #e1e4e8; --border-light: #d1d5da;
+            --text-primary: #24292e; --text-secondary: #586069; --text-tertiary: #959da5;
+            --accent: #0366d6; --accent-hover: #0256c7; --track-bg: #f6f8fa;
+            --fantasy: #9b59b6; --scifi: #3498db; --horror: #e74c3c; --adventure: #f39c12;
+            --ambient: #1abc9c; --action: #e67e22; --medieval: #8b6f47; --cyberpunk: #ff00ff;
+            --nature: #27ae60; --urban: #7f8c8d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: var(--bg-light); color: var(--text-primary); overflow: hidden; height: 100vh;
+        }
+        .landing-overlay {
+            position: fixed; inset: 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex; align-items: center; justify-content: center; z-index: 1000;
+            transition: opacity 0.4s, visibility 0.4s;
+        }
+        .landing-overlay.hidden { opacity: 0; visibility: hidden; }
+        .landing-content { text-align: center; color: white; }
+        .landing-content h1 { font-size: 28px; font-weight: 600; margin-bottom: 12px; letter-spacing: -0.5px; }
+        .landing-content p { font-size: 16px; opacity: 0.9; margin-bottom: 32px; }
+        .start-btn {
+            background: white; color: #667eea; border: none; padding: 14px 40px; font-size: 15px;
+            font-weight: 600; cursor: pointer; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .start-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(0,0,0,0.2); }
+        .studio-container { display: grid; grid-template-rows: 56px 1fr 48px; height: 100vh; }
+        .top-bar {
+            background: var(--bg-panel); border-bottom: 1px solid var(--border); display: flex;
+            align-items: center; padding: 0 20px; gap: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+        .project-name { font-size: 14px; color: var(--text-primary); font-weight: 600; }
+        .session-status {
+            font-size: 11px; color: var(--accent); padding: 4px 10px; border: 1px solid var(--accent);
+            border-radius: 12px; background: rgba(3, 102, 214, 0.05);
+        }
+        .control-group { display: flex; gap: 6px; align-items: center; }
+        .divider { width: 1px; height: 28px; background: var(--border); }
+        .btn-icon {
+            background: var(--bg-elevated); border: 1px solid var(--border); color: var(--text-secondary);
+            width: 36px; height: 32px; cursor: pointer; border-radius: 6px; font-size: 12px;
+            transition: all 0.2s; display: flex; align-items: center; justify-content: center;
+        }
+        .btn-icon:hover { background: var(--bg-light); border-color: var(--border-light); color: var(--text-primary); }
+        .btn-icon.active { background: var(--accent); border-color: var(--accent); color: white; }
+        .btn-icon:disabled { opacity: 0.4; cursor: not-allowed; }
+        .zoom-btn { cursor: ew-resize !important; user-select: none; min-width: 50px; width: auto; padding: 0 8px; }
+        .zoom-btn.zooming { background: var(--accent); color: white; border-color: var(--accent); }
+        .playback-controls { display: flex; gap: 6px; margin-left: auto; }
+        .btn-playback {
+            background: var(--bg-elevated); border: 1px solid var(--border); color: var(--text-primary);
+            padding: 8px 20px; cursor: pointer; border-radius: 6px; font-size: 12px; font-weight: 500;
+            transition: all 0.2s;
+        }
+        .btn-playback:hover { background: var(--bg-light); border-color: var(--border-light); }
+        .btn-playback.playing { background: var(--accent); border-color: var(--accent); color: white; }
+        .workspace { display: grid; grid-template-columns: 240px 280px 1fr 300px; overflow: hidden; }
+        .left-panel {
+            background: var(--bg-panel); border-right: 1px solid var(--border); overflow-y: auto; padding: 16px;
+        }
+        .tool-section { margin-bottom: 24px; }
+        .section-title {
+            font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.8px;
+            margin-bottom: 10px; font-weight: 700;
+        }
+        .tool-item {
+            display: flex; align-items: center; gap: 10px; padding: 10px 12px; margin-bottom: 4px;
+            border-radius: 6px; cursor: pointer; transition: all 0.2s; font-size: 13px; font-weight: 500;
+        }
+        .tool-item:hover { background: var(--bg-elevated); }
+        .tool-icon {
+            width: 20px; height: 20px; background: linear-gradient(135deg, var(--accent), #764ba2);
+            border-radius: 4px; flex-shrink: 0;
+        }
+        .library-panel {
+            background: var(--bg-panel); border-right: 1px solid var(--border); overflow-y: auto; padding: 16px;
+        }
+        .library-title { font-size: 16px; font-weight: 600; margin-bottom: 16px; color: var(--text-primary); }
+        .theme-selector { margin-bottom: 20px; }
+        .theme-label { font-size: 12px; color: var(--text-secondary); margin-bottom: 8px; font-weight: 500; }
+        .theme-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 16px; }
+        .theme-btn {
+            padding: 10px; border: 2px solid var(--border); border-radius: 8px; background: var(--bg-elevated);
+            cursor: pointer; transition: all 0.2s; font-size: 12px; font-weight: 600; text-align: center;
+        }
+        .theme-btn:hover { border-color: var(--accent); background: white; }
+        .theme-btn.active { border-color: var(--accent); background: var(--accent); color: white; }
+        .theme-btn.fantasy { border-color: var(--fantasy); }
+        .theme-btn.fantasy.active { background: var(--fantasy); border-color: var(--fantasy); }
+        .theme-btn.scifi { border-color: var(--scifi); }
+        .theme-btn.scifi.active { background: var(--scifi); border-color: var(--scifi); }
+        .theme-btn.horror { border-color: var(--horror); }
+        .theme-btn.horror.active { background: var(--horror); border-color: var(--horror); }
+        .theme-btn.adventure { border-color: var(--adventure); }
+        .theme-btn.adventure.active { background: var(--adventure); border-color: var(--adventure); }
+        .theme-btn.ambient { border-color: var(--ambient); }
+        .theme-btn.ambient.active { background: var(--ambient); border-color: var(--ambient); }
+        .theme-btn.action { border-color: var(--action); }
+        .theme-btn.action.active { background: var(--action); border-color: var(--action); }
+        .sound-library { margin-top: 20px; }
+        .library-category { margin-bottom: 16px; }
+        .category-header {
+            font-size: 11px; color: var(--text-tertiary); text-transform: uppercase; letter-spacing: 0.8px;
+            margin-bottom: 8px; font-weight: 700;
+        }
+        .sound-item {
+            display: flex; align-items: center; gap: 10px; padding: 10px; margin-bottom: 4px; border-radius: 6px;
+            cursor: grab; transition: all 0.2s; font-size: 12px; border: 1px solid transparent;
+            background: var(--bg-elevated);
+        }
+        .sound-item:hover { border-color: var(--border); background: white; box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+        .sound-item:active { cursor: grabbing; }
+        .sound-icon {
+            width: 28px; height: 28px; border-radius: 6px; flex-shrink: 0; display: flex;
+            align-items: center; justify-content: center; font-size: 14px;
+        }
+        .sound-icon.fantasy { background: linear-gradient(135deg, var(--fantasy), #c084fc); }
+        .sound-icon.scifi { background: linear-gradient(135deg, var(--scifi), #60a5fa); }
+        .sound-icon.horror { background: linear-gradient(135deg, var(--horror), #f87171); }
+        .sound-icon.adventure { background: linear-gradient(135deg, var(--adventure), #fbbf24); }
+        .sound-icon.ambient { background: linear-gradient(135deg, var(--ambient), #5eead4); }
+        .sound-icon.action { background: linear-gradient(135deg, var(--action), #fb923c); }
+        .sound-icon.medieval { background: linear-gradient(135deg, var(--medieval), #a78bfa); }
+        .sound-icon.cyberpunk { background: linear-gradient(135deg, var(--cyberpunk), #e879f9); }
+        .sound-icon.nature { background: linear-gradient(135deg, var(--nature), #4ade80); }
+        .sound-icon.urban { background: linear-gradient(135deg, var(--urban), #94a3b8); }
+        .sound-name { flex: 1; font-weight: 500; }
+        .sound-duration { font-size: 10px; color: var(--text-tertiary); }
+        .central-canvas { background: var(--bg-light); overflow: auto; position: relative; }
+        .timeline-header {
+            height: 40px; background: var(--bg-panel); border-bottom: 1px solid var(--border); display: flex;
+            align-items: center; padding: 0 16px; font-size: 11px; color: var(--text-tertiary);
+            position: sticky; top: 0; z-index: 10; box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+            overflow-x: auto; gap: 12px;
+        }
+        .timeline-ruler { display: flex; min-width: max-content; transition: transform 0.1s ease-out; }
+        .ruler-mark {
+            min-width: 80px; text-align: center; border-left: 1px solid var(--border); padding: 8px; font-weight: 500;
+        }
+        .btn-add-time {
+            background: var(--accent); color: white; border: none; padding: 6px 12px; border-radius: 6px;
+            font-size: 11px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.2s;
+            margin-left: auto; flex-shrink: 0;
+        }
+        .btn-add-time:hover { background: var(--accent-hover); transform: translateY(-1px); }
+        .timeline-tracks { padding: 20px; }
+        .track {
+            background: var(--bg-panel); border: 1px solid var(--border); border-radius: 8px; margin-bottom: 12px;
+            min-height: 72px; position: relative; box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+        .track-header {
+            padding: 12px 16px; font-size: 12px; color: var(--text-secondary); border-bottom: 1px solid var(--border);
+            display: flex; align-items: center; gap: 10px; font-weight: 600; background: var(--bg-elevated);
+            border-radius: 8px 8px 0 0;
+        }
+        .track-content {
+            padding: 12px; min-height: 48px; position: relative; display: flex; align-items: center;
+            gap: 12px; flex-wrap: wrap;
+        }
+        .audio-clip {
+            border: 2px solid; border-radius: 8px; padding: 10px 14px; font-size: 12px; position: relative;
+            cursor: move; transition: all 0.2s; font-weight: 600; box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            min-width: 120px; user-select: none;
+        }
+        .audio-clip:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.12); }
+        .audio-clip:hover .delete-clip-btn { opacity: 1; }
+        .audio-clip.selected { box-shadow: 0 4px 16px rgba(0,0,0,0.15); transform: translateY(-2px); }
+        .audio-clip.dragging { opacity: 0.6; cursor: grabbing; }
+        .delete-clip-btn {
+            position: absolute; top: -8px; right: -8px; width: 20px; height: 20px; background: #e74c3c;
+            color: white; border: 2px solid white; border-radius: 50%; cursor: pointer; display: flex;
+            align-items: center; justify-content: center; font-size: 14px; font-weight: bold; opacity: 0;
+            transition: all 0.2s; z-index: 10; line-height: 1;
+        }
+        .delete-clip-btn:hover { background: #c0392b; transform: scale(1.15); }
+        .audio-clip.fantasy { background: linear-gradient(135deg, #f3e7ff, #e9d5ff); border-color: var(--fantasy); color: var(--fantasy); }
+        .audio-clip.scifi { background: linear-gradient(135deg, #dbeafe, #bfdbfe); border-color: var(--scifi); color: var(--scifi); }
+        .audio-clip.horror { background: linear-gradient(135deg, #fee2e2, #fecaca); border-color: var(--horror); color: var(--horror); }
+        .audio-clip.adventure { background: linear-gradient(135deg, #fef3c7, #fde68a); border-color: var(--adventure); color: var(--adventure); }
+        .audio-clip.ambient { background: linear-gradient(135deg, #ccfbf1, #99f6e4); border-color: var(--ambient); color: var(--ambient); }
+        .audio-clip.action { background: linear-gradient(135deg, #fed7aa, #fdba74); border-color: var(--action); color: var(--action); }
+        .audio-clip.medieval { background: linear-gradient(135deg, #e9d8c4, #d4bfa7); border-color: var(--medieval); color: var(--medieval); }
+        .audio-clip.cyberpunk { background: linear-gradient(135deg, #fce7f3, #fbcfe8); border-color: var(--cyberpunk); color: var(--cyberpunk); }
+        .audio-clip.nature { background: linear-gradient(135deg, #d1fae5, #a7f3d0); border-color: var(--nature); color: var(--nature); }
+        .audio-clip.urban { background: linear-gradient(135deg, #e2e8f0, #cbd5e1); border-color: var(--urban); color: var(--urban); }
+        .loop-region {
+            background: linear-gradient(90deg, transparent, rgba(3, 102, 214, 0.08), transparent);
+            border: 2px dashed var(--accent); border-radius: 8px; padding: 10px 14px; font-size: 11px;
+            color: var(--accent); position: relative; display: inline-block; font-weight: 600;
+        }
+        .layer-indicator {
+            position: absolute; right: 10px; top: 10px; font-size: 9px; color: inherit; background: white;
+            padding: 3px 8px; border-radius: 4px; font-weight: 600; opacity: 0.9;
+        }
+        .transition-marker { position: absolute; width: 3px; height: 100%; background: var(--accent); top: 0; border-radius: 2px; }
+        .right-panel {
+            background: var(--bg-panel); border-left: 1px solid var(--border); overflow-y: auto; padding: 20px;
+        }
+        .inspector-section { margin-bottom: 28px; }
+        .inspector-title { font-size: 14px; color: var(--text-primary); margin-bottom: 16px; font-weight: 600; }
+        .property { margin-bottom: 16px; }
+        .property-label { font-size: 12px; color: var(--text-secondary); margin-bottom: 8px; font-weight: 500; }
+        .property-control input[type="range"] {
+            width: 100%; height: 6px; background: var(--border); border-radius: 3px; outline: none;
+            -webkit-appearance: none; appearance: none;
+        }
+        .property-control input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none; width: 16px; height: 16px; background: var(--accent); border-radius: 50%;
+            cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .property-control input[type="range"]::-moz-range-thumb {
+            width: 16px; height: 16px; background: var(--accent); border-radius: 50%; cursor: pointer;
+            border: none; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .property-control select {
+            width: 100%; background: var(--bg-elevated); border: 1px solid var(--border); color: var(--text-primary);
+            padding: 8px 10px; border-radius: 6px; font-size: 12px; cursor: pointer; font-weight: 500;
+        }
+        .toggle-group { display: flex; gap: 6px; }
+        .toggle-btn {
+            flex: 1; background: var(--bg-elevated); border: 1px solid var(--border); color: var(--text-secondary);
+            padding: 8px; font-size: 12px; cursor: pointer; border-radius: 6px; transition: all 0.2s; font-weight: 500;
+        }
+        .toggle-btn:hover { background: var(--bg-light); border-color: var(--border-light); }
+        .toggle-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
+        .value-display { font-size: 11px; color: var(--text-tertiary); margin-top: 6px; font-weight: 500; }
+        .bottom-bar {
+            background: var(--bg-panel); border-top: 1px solid var(--border); display: flex;
+            align-items: center; padding: 0 20px; gap: 20px; box-shadow: 0 -1px 3px rgba(0,0,0,0.04);
+        }
+        .export-control { display: flex; align-items: center; gap: 10px; font-size: 12px; }
+        .export-label { color: var(--text-secondary); font-weight: 500; }
+        .export-select {
+            background: var(--bg-elevated); border: 1px solid var(--border); color: var(--text-primary);
+            padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; font-weight: 500;
+        }
+        .btn-export {
+            background: var(--accent); color: white; border: none; padding: 8px 20px; font-size: 12px;
+            cursor: pointer; border-radius: 6px; margin-left: auto; transition: all 0.2s; font-weight: 600;
+            box-shadow: 0 2px 4px rgba(3, 102, 214, 0.2);
+        }
+        .btn-export:hover { background: var(--accent-hover); transform: translateY(-1px); box-shadow: 0 4px 8px rgba(3, 102, 214, 0.25); }
+        .status-indicator { display: flex; align-items: center; gap: 8px; font-size: 11px; color: var(--text-secondary); font-weight: 500; }
+        .status-dot { width: 8px; height: 8px; background: var(--accent); border-radius: 50%; animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        ::-webkit-scrollbar { width: 10px; height: 10px; }
+        ::-webkit-scrollbar-track { background: var(--bg-light); }
+        ::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 5px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--text-tertiary); }
+    </style>
+</head>
+<body>
+    <div class="landing-overlay" id="landingOverlay">
+        <div class="landing-content">
+            <h1>Interactive Audio Studio</h1>
+            <p>Create adaptive music for games</p>
+            <button class="start-btn" onclick="startEditing()">Start Editing</button>
+        </div>
+    </div>
+    <div class="studio-container">
+        <div class="top-bar">
+            <div class="project-name">Untitled Project</div>
+            <div class="session-status">Active</div>
+            <div class="divider"></div>
+            <div class="control-group">
+                <button class="btn-icon" id="undoBtn" title="Undo" onclick="undo()">↶</button>
+                <button class="btn-icon" id="redoBtn" title="Redo" onclick="redo()">↷</button>
+            </div>
+            <div class="divider"></div>
+            <div class="control-group">
+                <button class="btn-icon active" title="Snap">⊞</button>
+                <button class="btn-icon zoom-btn" id="zoomBtn" title="Click and drag left/right to zoom">100%</button>
+            </div>
+            <div class="playback-controls">
+                <button class="btn-playback" id="playBtn" onclick="togglePlay()">▶ Play</button>
+                <button class="btn-playback">■ Stop</button>
+                <button class="btn-playback active">⟳ Loop</button>
+            </div>
+        </div>
+        <div class="workspace">
+            <div class="left-panel">
+                <div class="tool-section">
+                    <div class="section-title">Composer</div>
+                    <div class="tool-item"><div class="tool-icon"></div><span>New Track</span></div>
+                    <div class="tool-item"><div class="tool-icon"></div><span>Audio Clip</span></div>
+                    <div class="tool-item"><div class="tool-icon"></div><span>Loop Region</span></div>
+                </div>
+                <div class="tool-section">
+                    <div class="section-title">Sound Design</div>
+                    <div class="tool-item"><div class="tool-icon"></div><span>Layer Stack</span></div>
+                    <div class="tool-item"><div class="tool-icon"></div><span>Variation</span></div>
+                </div>
+                <div class="tool-section">
+                    <div class="section-title">Structure</div>
+                    <div class="tool-item"><div class="tool-icon"></div><span>Transition</span></div>
+                    <div class="tool-item"><div class="tool-icon"></div><span>Modular Block</span></div>
+                    <div class="tool-item"><div class="tool-icon"></div><span>Trigger</span></div>
+                </div>
+            </div>
+            <div class="library-panel">
+                <div class="library-title">🎵 Sound Library</div>
+                <div class="theme-selector">
+                    <div class="theme-label">Select Theme</div>
+                    <div class="theme-grid">
+                        <button class="theme-btn fantasy active" onclick="selectTheme('fantasy', event)">Fantasy</button>
+                        <button class="theme-btn scifi" onclick="selectTheme('scifi', event)">Sci-Fi</button>
+                        <button class="theme-btn horror" onclick="selectTheme('horror', event)">Horror</button>
+                        <button class="theme-btn adventure" onclick="selectTheme('adventure', event)">Adventure</button>
+                        <button class="theme-btn ambient" onclick="selectTheme('ambient', event)">Ambient</button>
+                        <button class="theme-btn action" onclick="selectTheme('action', event)">Action</button>
+                    </div>
+                </div>
+                <div class="sound-library" id="soundLibrary"></div>
+            </div>
+            <div class="central-canvas">
+                <div class="timeline-header">
+                    <div class="timeline-ruler" id="timelineRuler">
+                        <div class="ruler-mark">0s</div><div class="ruler-mark">1s</div><div class="ruler-mark">2s</div>
+                        <div class="ruler-mark">3s</div><div class="ruler-mark">4s</div><div class="ruler-mark">5s</div>
+                        <div class="ruler-mark">6s</div><div class="ruler-mark">7s</div><div class="ruler-mark">8s</div>
+                    </div>
+                    <button class="btn-add-time" id="addTimeBtn" onclick="addTimeToTimeline()" title="Add 10 seconds">+ Time</button>
+                </div>
+                <div class="timeline-tracks" id="timelineTracks">
+                    <div class="track">
+                        <div class="track-header"><div class="tool-icon"></div>Main Theme</div>
+                        <div class="track-content">
+                            <div class="audio-clip fantasy selected" data-genre="fantasy">
+                                Epic Battle Theme<div class="layer-indicator">Base Loop</div>
+                            </div>
+                            <div class="loop-region">Loop</div>
+                            <div class="transition-marker" style="left: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div class="track-header"><div class="tool-icon"></div>Intensity Layer</div>
+                        <div class="track-content">
+                            <div class="audio-clip fantasy" data-genre="fantasy">
+                                Combat Variant<div class="layer-indicator">Adaptive</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="track">
+                        <div class="track-header"><div class="tool-icon"></div>Ambient Layer</div>
+                        <div class="track-content">
+                            <div class="audio-clip ambient" data-genre="ambient">
+                                Wind Howl<div class="layer-indicator">Layer</div>
+                            </div>
+                            <div class="audio-clip medieval" data-genre="medieval">Castle Ambience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-panel">
+                <div class="inspector-section">
+                    <div class="inspector-title">Audio Properties</div>
+                    <div class="property">
+                        <div class="property-label">Duration</div>
+                        <div class="property-control">
+                            <input type="range" min="0" max="100" value="75" id="durationSlider">
+                            <div class="value-display">3:24</div>
+                        </div>
+                    </div>
+                    <div class="property">
+                        <div class="property-label">Loop Type</div>
+                        <div class="property-control">
+                            <select><option>Seamless</option><option>Cross-fade</option><option>One-shot</option><option>Adaptive</option></select>
+                        </div>
+                    </div>
+                    <div class="property">
+                        <div class="property-label">Fade In/Out</div>
+                        <div class="property-control">
+                            <div class="toggle-group">
+                                <button class="toggle-btn active">Fade In</button>
+                                <button class="toggle-btn active">Fade Out</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="property">
+                        <div class="property-label">Variations</div>
+                        <div class="property-control">
+                            <input type="range" min="1" max="8" value="3">
+                            <div class="value-display">3 variants</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inspector-section">
+                    <div class="inspector-title">Layer Settings</div>
+                    <div class="property">
+                        <div class="property-label">Priority Level</div>
+                        <div class="property-control">
+                            <input type="range" min="0" max="100" value="60">
+                            <div class="value-display">Medium</div>
+                        </div>
+                    </div>
+                    <div class="property">
+                        <div class="property-label">Intensity</div>
+                        <div class="property-control">
+                            <input type="range" min="0" max="100" value="75">
+                            <div class="value-display">75%</div>
+                        </div>
+                    </div>
+                    <div class="property">
+                        <div class="property-label">Trigger Condition</div>
+                        <div class="property-control">
+                            <select><option>On Combat Start</option><option>On Boss Appear</option><option>On Player Low Health</option><option>On Victory</option><option>Always Active</option></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="inspector-section">
+                    <div class="inspector-title">Behavior</div>
+                    <div class="property">
+                        <div class="property-label">Transition Style</div>
+                        <div class="property-control">
+                            <select><option>Immediate</option><option>Beat Aligned</option><option>Bar Aligned</option><option>Cross-fade 2s</option></select>
+                        </div>
+                    </div>
+                    <div class="property">
+                        <div class="property-label">Playback Mode</div>
+                        <div class="property-control">
+                            <div class="toggle-group">
+                                <button class="toggle-btn active">Loop</button>
+                                <button class="toggle-btn">Once</button>
+                                <button class="toggle-btn">Random</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="export-control">
+                <span class="export-label">Format</span>
+                <select class="export-select">
+                    <option>Unity Package</option><option>Unreal Asset</option><option>FMOD Project</option>
+                    <option>Wwise Project</option><option>WAV Bundle</option>
+                </select>
+            </div>
+            <div class="export-control">
+                <span class="export-label">Engine</span>
+                <select class="export-select"><option>Unity</option><option>Unreal</option><option>Godot</option><option>Custom</option></select>
+            </div>
+            <div class="status-indicator"><div class="status-dot"></div><span>Ready to export</span></div>
+            <button class="btn-export">Export Package</button>
+            <button class="btn-export">Save Project</button>
+        </div>
+    </div>
+    <script>
+const soundLibraries={fantasy:{music:[{name:'Epic Battle Theme',duration:'3:24',icon:'♪'},{name:'Mystical Forest',duration:'2:45',icon:'♪'},{name:"Dragon's Lair",duration:'4:12',icon:'♪'},{name:'Castle Ambience',duration:'2:30',icon:'♪',genre:'medieval'},{name:'Tavern Music',duration:'2:15',icon:'♪',genre:'medieval'}],sfx:[{name:'Sword Clash',duration:'0:02',icon:'⚔'},{name:'Magic Spell',duration:'0:03',icon:'✨'},{name:'Arrow Shot',duration:'0:01',icon:'🏹'},{name:'Shield Block',duration:'0:02',icon:'🛡'}],ambient:[{name:'Wind Howl',duration:'1:00',icon:'💨',genre:'ambient'},{name:'Fire Crackling',duration:'0:45',icon:'🔥',genre:'ambient'},{name:'Cave Echo',duration:'1:30',icon:'🏔',genre:'ambient'}]},scifi:{music:[{name:'Space Station',duration:'3:50',icon:'♪'},{name:'Cybernetic Chase',duration:'2:32',icon:'♪'},{name:'Alien World',duration:'4:05',icon:'♪'},{name:'Tech Lab',duration:'3:15',icon:'♪'}],sfx:[{name:'Laser Blast',duration:'0:01',icon:'⚡'},{name:'Ship Engine',duration:'0:03',icon:'🚀'},{name:'Portal Open',duration:'0:02',icon:'🌀'},{name:'Robot Beep',duration:'0:01',icon:'🤖'}],ambient:[{name:'Space Hum',duration:'2:00',icon:'🌌',genre:'ambient'},{name:'Computer Lab',duration:'1:45',icon:'💻',genre:'ambient'},{name:'Ventilation',duration:'1:20',icon:'🌬',genre:'ambient'}]},horror:{music:[{name:'Creeping Dread',duration:'3:20',icon:'♪'},{name:'Haunted Manor',duration:'4:15',icon:'♪'},{name:'Chase Theme',duration:'2:40',icon:'♪'},{name:'Suspense Build',duration:'2:55',icon:'♪'}],sfx:[{name:'Door Creak',duration:'0:04',icon:'🚪'},{name:'Scream',duration:'0:02',icon:'😱'},{name:'Heartbeat',duration:'0:03',icon:'💓'},{name:'Whisper',duration:'0:02',icon:'👻'}],ambient:[{name:'Dark Drone',duration:'2:30',icon:'🌑',genre:'ambient'},{name:'Distant Thunder',duration:'1:50',icon:'⚡',genre:'ambient'},{name:'Wind Eerie',duration:'2:10',icon:'💨',genre:'ambient'}]},adventure:{music:[{name:'Exploration Theme',duration:'3:35',icon:'♪'},{name:'Victory Fanfare',duration:'0:45',icon:'♪'},{name:'Puzzle Solving',duration:'2:50',icon:'♪'},{name:'Treasure Found',duration:'1:30',icon:'♪'}],sfx:[{name:'Coin Collect',duration:'0:01',icon:'💰'},{name:'Jump',duration:'0:01',icon:'⬆'},{name:'Item Pickup',duration:'0:02',icon:'📦'},{name:'Level Up',duration:'0:03',icon:'⭐'}],ambient:[{name:'Jungle Sounds',duration:'2:20',icon:'🌴',genre:'nature'},{name:'Ocean Waves',duration:'2:00',icon:'🌊',genre:'nature'},{name:'Mountain Wind',duration:'1:40',icon:'⛰',genre:'ambient'}]},ambient:{music:[{name:'Peaceful Meadow',duration:'4:00',icon:'♪'},{name:'Meditation Flow',duration:'5:30',icon:'♪'},{name:'Dawn Chorus',duration:'3:45',icon:'♪'},{name:'Calm Waters',duration:'4:20',icon:'♪'}],sfx:[{name:'Footsteps Grass',duration:'0:01',icon:'👣'},{name:'Birds Chirp',duration:'0:03',icon:'🐦',genre:'nature'},{name:'Water Drop',duration:'0:01',icon:'💧'},{name:'Leaves Rustle',duration:'0:02',icon:'🍃',genre:'nature'}],ambient:[{name:'Rain Forest',duration:'2:00',icon:'🌧',genre:'nature'},{name:'Stream Flow',duration:'2:30',icon:'💧',genre:'nature'},{name:'Night Crickets',duration:'1:45',icon:'🦗',genre:'nature'}]},action:{music:[{name:'Adrenaline Rush',duration:'2:50',icon:'♪'},{name:'Boss Battle',duration:'3:30',icon:'♪'},{name:'High Speed Chase',duration:'2:45',icon:'♪'},{name:'Combat Zone',duration:'3:15',icon:'♪'}],sfx:[{name:'Explosion',duration:'0:02',icon:'💥'},{name:'Gun Shot',duration:'0:01',icon:'🔫'},{name:'Reload',duration:'0:02',icon:'🔃'},{name:'Melee Hit',duration:'0:01',icon:'👊'}],ambient:[{name:'Battlefield',duration:'2:10',icon:'⚔',genre:'urban'},{name:'City Streets',duration:'1:55',icon:'🏙',genre:'urban'},{name:'Industrial Hum',duration:'2:00',icon:'🏭',genre:'urban'}]}};
+let currentTheme='fantasy',history=[],historyIndex=-1,zoomLevel=100,isZooming=!1,zoomStartX=0,zoomStartLevel=100,currentMaxTime=8;
+function startEditing(){document.getElementById('landingOverlay').classList.add('hidden');saveState();}
+function togglePlay(){const btn=document.getElementById('playBtn');btn.textContent==='▶ Play'?(btn.textContent='❚❚ Pause',btn.classList.add('playing')):(btn.textContent='▶ Play',btn.classList.remove('playing'));}
+function selectTheme(theme,event){currentTheme=theme;document.querySelectorAll('.theme-btn').forEach(btn=>btn.classList.remove('active'));event.target.classList.add('active');updateSoundLibrary(theme);}
+function updateSoundLibrary(theme){const library=soundLibraries[theme],container=document.getElementById('soundLibrary');let html='';html+='<div class="library-category"><div class="category-header">Music Tracks</div>';library.music.forEach(sound=>{const genre=sound.genre||theme;html+=`<div class="sound-item" draggable="true" data-name="${sound.name}" data-genre="${genre}" data-duration="${sound.duration}"><div class="sound-icon ${genre}">${sound.icon}</div><div class="sound-name">${sound.name}</div><div class="sound-duration">${sound.duration}</div></div>`;});html+='</div>';html+='<div class="library-category"><div class="category-header">Sound Effects</div>';library.sfx.forEach(sound=>{const genre=sound.genre||theme;html+=`<div class="sound-item" draggable="true" data-name="${sound.name}" data-genre="${genre}" data-duration="${sound.duration}"><div class="sound-icon ${genre}">${sound.icon}</div><div class="sound-name">${sound.name}</div><div class="sound-duration">${sound.duration}</div></div>`;});html+='</div>';html+='<div class="library-category"><div class="category-header">Ambient</div>';library.ambient.forEach(sound=>{const genre=sound.genre||theme;html+=`<div class="sound-item" draggable="true" data-name="${sound.name}" data-genre="${genre}" data-duration="${sound.duration}"><div class="sound-icon ${genre}">${sound.icon}</div><div class="sound-name">${sound.name}</div><div class="sound-duration">${sound.duration}</div></div>`;});html+='</div>';container.innerHTML=html;attachDragListeners();}
+function attachDragListeners(){document.querySelectorAll('.sound-item').forEach(item=>{item.addEventListener('dragstart',e=>{e.dataTransfer.setData('soundName',item.dataset.name);e.dataTransfer.setData('soundGenre',item.dataset.genre);e.dataTransfer.setData('soundDuration',item.dataset.duration);});});}
+function saveState(){const state=document.getElementById('timelineTracks').innerHTML;history=history.slice(0,historyIndex+1);history.push(state);if(history.length>50)history.shift();else historyIndex++;updateUndoRedoButtons();}
+function undo(){if(historyIndex>0){historyIndex--;document.getElementById('timelineTracks').innerHTML=history[historyIndex];reattachClipListeners();updateUndoRedoButtons();}}
+function redo(){if(historyIndex<history.length-1){historyIndex++;document.getElementById('timelineTracks').innerHTML=history[historyIndex];reattachClipListeners();updateUndoRedoButtons();}}
+function updateUndoRedoButtons(){const undoBtn=document.getElementById('undoBtn'),redoBtn=document.getElementById('redoBtn');undoBtn.disabled=historyIndex<=0;redoBtn.disabled=historyIndex>=history.length-1;}
+function initZoomControl(){const zoomBtn=document.getElementById('zoomBtn');zoomBtn.addEventListener('mousedown',e=>{isZooming=!0;zoomStartX=e.clientX;zoomStartLevel=zoomLevel;zoomBtn.classList.add('zooming');e.preventDefault();});document.addEventListener('mousemove',e=>{if(isZooming){const delta=e.clientX-zoomStartX;zoomLevel=Math.max(25,Math.min(400,zoomStartLevel+delta));zoomBtn.textContent=Math.round(zoomLevel)+'%';document.getElementById('timelineRuler').style.transform=`scaleX(${zoomLevel/100})`;}});document.addEventListener('mouseup',()=>{if(isZooming){isZooming=!1;zoomBtn.classList.remove('zooming');}});}
+function addTimeToTimeline(){const timelineRuler=document.getElementById('timelineRuler'),startTime=currentMaxTime+1;currentMaxTime+=10;for(let i=startTime;i<=currentMaxTime;i++){const mark=document.createElement('div');mark.className='ruler-mark';mark.textContent=i+'s';timelineRuler.appendChild(mark);}}
+function makeClipDraggable(clip){let isDragging=!1,startX,startY,originalParent,placeholder;clip.addEventListener('mousedown',function(e){if(e.target.classList.contains('delete-clip-btn'))return;isDragging=!0;startX=e.clientX;startY=e.clientY;originalParent=clip.parentElement;const rect=clip.getBoundingClientRect();clip.style.position='fixed';clip.style.left=rect.left+'px';clip.style.top=rect.top+'px';clip.style.width=rect.width+'px';clip.style.zIndex='1000';clip.classList.add('dragging');placeholder=document.createElement('div');placeholder.style.width=rect.width+'px';placeholder.style.height=rect.height+'px';placeholder.style.opacity='0.3';placeholder.style.border='2px dashed var(--border)';placeholder.style.borderRadius='8px';placeholder.style.display='inline-block';originalParent.insertBefore(placeholder,clip);document.body.appendChild(clip);e.preventDefault();});document.addEventListener('mousemove',function(e){if(!isDragging)return;const deltaX=e.clientX-startX,deltaY=e.clientY-startY;clip.style.left=(parseFloat(clip.style.left)+deltaX)+'px';clip.style.top=(parseFloat(clip.style.top)+deltaY)+'px';startX=e.clientX;startY=e.clientY;document.querySelectorAll('.track-content').forEach(trackContent=>{const rect=trackContent.getBoundingClientRect();if(e.clientX>rect.left&&e.clientX<rect.right&&e.clientY>rect.top&&e.clientY<rect.bottom){trackContent.style.background='rgba(3, 102, 214, 0.05)';}else{trackContent.style.background='';}});});document.addEventListener('mouseup',function(e){if(isDragging){isDragging=!1;clip.classList.remove('dragging');let targetTrack=null;document.querySelectorAll('.track-content').forEach(trackContent=>{const rect=trackContent.getBoundingClientRect();if(e.clientX>rect.left&&e.clientX<rect.right&&e.clientY>rect.top&&e.clientY<rect.bottom){targetTrack=trackContent;}trackContent.style.background='';});if(targetTrack){targetTrack.appendChild(clip);}else{originalParent.appendChild(clip);}if(placeholder&&placeholder.parentNode){placeholder.parentNode.removeChild(placeholder);}clip.style.position='';clip.style.left='';clip.style.top='';clip.style.width='';clip.style.zIndex='';saveState();}});}
+function deleteClip(clip){clip.remove();saveState();}
+function addDeleteButton(clip){const deleteBtn=document.createElement('div');deleteBtn.className='delete-clip-btn';deleteBtn.innerHTML='×';deleteBtn.onclick=e=>{e.stopPropagation();deleteClip(clip);};clip.appendChild(deleteBtn);}
+function reattachClipListeners(){document.querySelectorAll('.audio-clip').forEach(clip=>{const oldBtn=clip.querySelector('.delete-clip-btn');if(oldBtn)oldBtn.remove();addDeleteButton(clip);makeClipDraggable(clip);});}
+document.addEventListener('DOMContentLoaded',()=>{updateSoundLibrary('fantasy');initZoomControl();updateUndoRedoButtons();document.addEventListener('click',e=>{if(e.target.classList.contains('audio-clip')||e.target.closest('.audio-clip')){const clip=e.target.classList.contains('audio-clip')?e.target:e.target.closest('.audio-clip');document.querySelectorAll('.audio-clip').forEach(c=>c.classList.remove('selected'));clip.classList.add('selected');}});document.querySelectorAll('.toggle-btn').forEach(btn=>{btn.addEventListener('click',()=>{if(btn.parentElement.classList.contains('toggle-group')&&btn.textContent!=='Fade In'&&btn.textContent!=='Fade Out'){btn.parentElement.querySelectorAll('.toggle-btn').forEach(b=>b.classList.remove('active'));}btn.classList.toggle('active');});});document.querySelectorAll('.btn-icon').forEach(btn=>{if(btn.title!=='Undo'&&btn.title!=='Redo'&&!btn.id.includes('zoom')){btn.addEventListener('click',()=>btn.classList.toggle('active'));}});const timelineTracks=document.getElementById('timelineTracks');timelineTracks.addEventListener('dragover',e=>{e.preventDefault();e.dataTransfer.dropEffect='copy';});timelineTracks.addEventListener('drop',e=>{e.preventDefault();const soundName=e.dataTransfer.getData('soundName'),soundGenre=e.dataTransfer.getData('soundGenre'),soundDuration=e.dataTransfer.getData('soundDuration');if(soundName){const newTrack=document.createElement('div');newTrack.className='track';newTrack.innerHTML=`<div class="track-header"><div class="tool-icon"></div>New Track</div><div class="track-content"><div class="audio-clip ${soundGenre}" data-genre="${soundGenre}">${soundName}<div class="layer-indicator">${soundDuration}</div></div></div>`;timelineTracks.appendChild(newTrack);const newClip=newTrack.querySelector('.audio-clip');addDeleteButton(newClip);makeClipDraggable(newClip);saveState();}});reattachClipListeners();});
+    </script>
+</body>
+</html>

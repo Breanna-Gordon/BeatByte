@@ -1,0 +1,141 @@
+/* ------------------------------------------------
+   about.css - Structure & Layout Fixes
+------------------------------------------------ */
+
+/* 1. Base Settings & Typography override */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.6;
+  }
+  
+  /* 2. Section Spacing & Backgrounds */
+  .page-section {
+    padding: 100px 24px; /* Vertical breathing room */
+    background-color: #ffffff;
+  }
+  
+  .alt-bg {
+    background-color: #f7f7f7; /* Light gray to separate sections visually */
+  }
+  
+  /* 3. The Container (Fixes "All to the left") */
+  .section-inner {
+    max-width: 900px; /* Controls maximum width of content */
+    margin: 0 auto;   /* CENTERS the content horizontally */
+  }
+  
+  /* 4. Text Utilities */
+  .center-text {
+    text-align: center;
+    max-width: 720px; /* Make text narrower than the grid for readability */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .accent-label {
+    display: block;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #0055ff; /* BeatByte Accent Color */
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: #111;
+  }
+  
+  .lead-text {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 24px;
+  }
+  
+  .body-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* 5. The Grid System (Fixes "Stacked over each other") */
+  .grid-2-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal columns */
+    gap: 32px; /* Space between cards */
+    margin-top: 48px;
+    text-align: left; /* Ensures grid items text aligns left naturally */
+  }
+  
+  .wide-gap {
+    gap: 80px; /* More space for the "Values" comparison list */
+  }
+  
+  /* 6. Card Styling (Core Values) */
+  .card {
+    background: #ffffff;
+    padding: 32px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px; /* Subtle rounded corners */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  /* Hover effect for cards */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #111;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  /* 7. List Styling (For Developers/Producers) */
+  .clean-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .clean-list li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    color: #444;
+  }
+  
+  .clean-list li::before {
+    content: "•";
+    color: #0055ff;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+  
+  /* 8. Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .grid-2-col {
+      grid-template-columns: 1fr; /* Stack vertically on phones */
+      gap: 40px;
+    }
+    
+    h1 {
+      font-size: 2.2rem;
+    }
+    
+    .page-section {
+      padding: 60px 24px;
+    }
+  }

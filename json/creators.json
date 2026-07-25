@@ -1,0 +1,106 @@
+[
+  {
+    "id": "c001",
+    "name": "Luna Soundworks",
+    "verified": true,
+    "location": "UK",
+    "bio": "UI and gameplay sound designer focused on clarity, accessibility, and cozy experiences.",
+    "joinedAt": "2025-06-14",
+    "specialties": [
+      "UI",
+      "Cozy SFX",
+      "Accessibility"
+    ]
+  },
+  {
+    "id": "c002",
+    "name": "Neon Frame Audio",
+    "verified": true,
+    "location": "Germany",
+    "bio": "Composer + sound designer specialising in cyberpunk, cinematic, and adaptive game music.",
+    "joinedAt": "2024-11-02",
+    "specialties": [
+      "Cyber",
+      "Cinematic",
+      "Adaptive Music"
+    ]
+  },
+  {
+    "id": "c003",
+    "name": "Pixel Whistle",
+    "verified": false,
+    "location": "Canada",
+    "bio": "Chiptune and retro-inspired audio packs for indie and pixel-art games.",
+    "joinedAt": "2025-02-18",
+    "specialties": [
+      "Chiptune",
+      "Retro",
+      "Arcade UI"
+    ]
+  },
+  {
+    "id": "c004",
+    "name": "Aurora Foley Co.",
+    "verified": true,
+    "location": "France",
+    "bio": "Foley artist delivering tactile movement, cloth, props, and environmental detail for games.",
+    "joinedAt": "2025-03-09",
+    "specialties": [
+      "Foley",
+      "Footsteps",
+      "Props"
+    ]
+  },
+  {
+    "id": "c005",
+    "name": "Bossroom Orchestra",
+    "verified": true,
+    "location": "US",
+    "bio": "Orchestral composer collective for RPGs, boss themes, trailers, and expansive OSTs.",
+    "joinedAt": "2024-08-21",
+    "specialties": [
+      "Orchestral",
+      "Epic",
+      "RPG"
+    ]
+  },
+  {
+    "id": "c006",
+    "name": "Lowlight Atmospheres",
+    "verified": true,
+    "location": "Sweden",
+    "bio": "Dark ambient beds, horror tension layers, and unsettling drones for suspense.",
+    "joinedAt": "2025-01-12",
+    "specialties": [
+      "Dark",
+      "Horror",
+      "Ambience"
+    ]
+  },
+  {
+    "id": "c007",
+    "name": "Kinetik Beats",
+    "verified": false,
+    "location": "Japan",
+    "bio": "Hybrid electronic composer with BPM-forward loops for action, rhythm, and racing games.",
+    "joinedAt": "2025-05-30",
+    "specialties": [
+      "Electronic",
+      "Racing",
+      "Rhythm"
+    ]
+  },
+  {
+    "id": "c008",
+    "name": "Storybook Strings",
+    "verified": true,
+    "location": "Ireland",
+    "bio": "Warm melodic themes for cozy narratives, adventure, and emotional cutscenes.",
+    "joinedAt": "2024-12-05",
+    "specialties": [
+      "Themes",
+      "Cozy",
+      "Narrative"
+    ]
+  }
+]
